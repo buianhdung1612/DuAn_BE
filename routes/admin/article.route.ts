@@ -8,6 +8,7 @@ const router = Router();
 // Danh mục bài viết
 router.get('/category', checkPermission("blog_category_view"), articleController.category);
 router.get('/category/tree', checkPermission("blog_category_view"), articleController.getCategoryTree);
+router.get('/category/nested', checkPermission("blog_category_view"), articleController.getCategoryTree);
 router.get('/category/detail/:id', checkPermission("blog_category_view"), articleController.getCategoryDetail);
 router.post(
     '/category/create',
@@ -29,7 +30,7 @@ router.delete('/category/force-delete/:id', checkPermission("blog_category_delet
 router.get('/list', checkPermission("blog_view"), articleController.list);
 router.get('/detail/:id', checkPermission("blog_view"), articleController.detail);
 router.post(
-    '/',
+    '/create',
     checkPermission("blog_create"),
     articleValidate.createBlog,
     articleController.create

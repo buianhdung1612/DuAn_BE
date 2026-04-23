@@ -1,7 +1,9 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import dotenv from "dotenv";
 import http from 'http';
 import session from 'express-session';
 import passport from 'passport';
@@ -14,24 +16,16 @@ if (dns.setDefaultResultOrder) {
 }
 import { Server } from 'socket.io';
 import adminRoutes from "./routes/admin/index.route";
-import clientRoutes from "./routes/client/index.route";
 import { connectDB } from './configs/database.config';
-import { startCancellationTask } from './jobs/cancellation.job';
-import { startExpiryTask } from './jobs/expiry.job';
-import { startNotificationTask } from './jobs/notification.job';
-import { startBookingTask } from './jobs/booking.job';
 import { initSocket } from './sockets/index.socket';
 import { configGooglePassport } from './configs/googleOauth.config';
 import { configureFacebookPassport } from './configs/facebookOauth.config';
-
-// Load biến môi trường
-dotenv.config();
 
 const app = express()
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: true, // Cho phép tất cả các nguồn trong quá trình dev cho nhanh
+        origin: true,
         methods: ["GET", "POST"],
         credentials: true
     }
@@ -53,10 +47,6 @@ const startServer = async () => {
         await configureFacebookPassport(passport);
 
         server.listen(port, () => {
-            startCancellationTask();
-            startExpiryTask();
-            startNotificationTask();
-            startBookingTask();
             console.log(`Website đang chạy trên cổng ${port}`);
         });
     } catch (error) {
@@ -71,7 +61,7 @@ app.use(cookieParser());
 
 // CORS
 app.use(cors({
-    origin: true, // Cho phép tất cả các nguồn cho mobile dev
+    origin: true,
     credentials: true
 }));
 
@@ -87,6 +77,6 @@ app.use(passport.session());
 
 // Cấu hình routes
 app.use('/api/v1/admin', adminRoutes);
-app.use('/api/v1/client', clientRoutes);
 
 startServer();
+ 

@@ -1,0 +1,2663 @@
+[
+  {
+    "_id": "69dd319a2f51f7237be6496a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "questionnaire",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˌk(w)estjəˈnɛə/",
+    "audio": "",
+    "definition": "Câu hỏi hoặc biểu mẫu được sử dụng để thu thập dữ liệu",
+    "examples": [
+      {
+        "sentence": "Đội nghiên cứu đã lập kế hoạch cho một cuộc điều tra với một danh sách câu hỏi kỹ lưỡng.",
+        "translation": "Đội nghiên cứu đã lên kế hoạch cho một cuộc điều tra với một danh sách câu hỏi kỹ lưỡng.",
+        "_id": "69dd319a2f51f7237be6496b"
+      }
+    ],
+    "mnemonic": "Questionnaires là những cuốn sách hỏi.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:34.607Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:34.617Z",
+    "updatedAt": "2026-04-13T18:10:34.617Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319a2f51f7237be6496e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "unbelievable",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˌʌnbəˈliːvəbl̩/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/unbelievable-us.mp3",
+    "definition": "Đáng ngạc nhiên hoặc khó tin",
+    "examples": [
+      {
+        "sentence": "Câu chuyện ông ấy kể là đáng tin cậy, song thực tế thì vô cùng phi lý.",
+        "translation": "Câu chuyện ông ấy kể là đáng tin cậy, song thực tế thì vô cùng phi lý.",
+        "_id": "69dd319a2f51f7237be6496f"
+      }
+    ],
+    "mnemonic": "Unbelievable là những điều khó tin.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:34.770Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:34.772Z",
+    "updatedAt": "2026-04-13T18:10:34.772Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319a2f51f7237be64971",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "tractor",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈtɹæktə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tractor-us.mp3",
+    "definition": "Xe kéo cày hoặc vận chuyển",
+    "examples": [
+      {
+        "sentence": "Tractor đã giúp nhân công trong trang trại có được công việc nhẹ nhàng hơn.",
+        "translation": "Tractor đã giúp nhân công trong trang trại có được công việc nhẹ nhàng hơn.",
+        "_id": "69dd319a2f51f7237be64972"
+      }
+    ],
+    "mnemonic": "Tractor là máy kéo của bạn.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:34.912Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:34.913Z",
+    "updatedAt": "2026-04-13T18:10:34.913Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319a2f51f7237be64974",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "crash",
+    "category": "phrase",
+    "partOfSpeech": "noun",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/kɹæʃ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/crash-us.mp3",
+    "definition": "Cực kỳ ngắt gân",
+    "examples": [
+      {
+        "sentence": "Tôi đã gặp một vụ tai nạn khi đang lái xe.",
+        "translation": "Tôi đã gặp một vụ crash khi đang lái xe.",
+        "_id": "69dd33672f51f7237be64a14"
+      },
+      {
+        "sentence": "Cô ấy đã crash máy tính của mình.",
+        "translation": "Cô ấy đã làm hỏng máy tính của mình.",
+        "_id": "69dd33672f51f7237be64a15"
+      }
+    ],
+    "mnemonic": "Mẹo ghi nhớ: hình ảnh một chiếc xe ô tô rơi xuống đường.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:34.989Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:34.990Z",
+    "updatedAt": "2026-04-13T18:18:15.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be64977",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "fall out",
+    "category": "phrase",
+    "partOfSpeech": "phrase",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/fɔːlˈaʊt/",
+    "audio": "",
+    "definition": "Tự tán phá hoặc làm đổ sụp",
+    "examples": [
+      {
+        "sentence": "Sau khi bị bắt, anh ta đã rời bỏ nhóm của mình.",
+        "translation": "Sau khi bị bắt, anh ta đã rời bỏ nhóm của mình.",
+        "_id": "69dd319b2f51f7237be64978"
+      }
+    ],
+    "mnemonic": "Fall out là sự rời bỏ.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.071Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.072Z",
+    "updatedAt": "2026-04-13T18:10:35.072Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be6497a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "unconscious",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˌʌnˈkɒnʃəs/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/unconscious-us.mp3",
+    "definition": "Không tỉnh táo, hoặc không ý thức được tình huống thực tế",
+    "examples": [
+      {
+        "sentence": "Anh ta đã bị bỏng nặng và đã mất ý thức trong một thời gian dài.",
+        "translation": "Anh ta đã bị bỏng nặng và đã mất ý thức trong một thời gian dài.",
+        "_id": "69dd319b2f51f7237be6497b"
+      }
+    ],
+    "mnemonic": "Unconscious là không tỉnh táo.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.215Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.215Z",
+    "updatedAt": "2026-04-13T18:10:35.215Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be6497d",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "pocket",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈpɒkɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/pocket-au.mp3",
+    "definition": "Lỗ nhỏ trong quần áo để chứa đồ đạc",
+    "examples": [
+      {
+        "sentence": "Anh ta đã chèn chiếc đồng hồ vào túi quần để khỏi làm hỏng nó.",
+        "translation": "Anh ta đã chèn chiếc đồng hồ vào túi quần để khỏi làm hỏng nó.",
+        "_id": "69dd319b2f51f7237be6497e"
+      }
+    ],
+    "mnemonic": "Pocket là túi nhỏ trong quần áo.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.353Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.353Z",
+    "updatedAt": "2026-04-13T18:10:35.353Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be64980",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "Soon after",
+    "category": "phrase",
+    "partOfSpeech": "phrase",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/suːnˈæftə/",
+    "audio": "",
+    "definition": "Tiếng nói chỉ thời điểm gần đây xảy ra",
+    "examples": [
+      {
+        "sentence": "Anh ta đã gọi điện cho tôi không lâu sau khi rời khỏi nhà.",
+        "translation": "Anh ta đã gọi điện cho tôi không lâu sau khi rời khỏi nhà.",
+        "_id": "69dd319b2f51f7237be64981"
+      }
+    ],
+    "mnemonic": "Soon after là không lâu sau.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.428Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.429Z",
+    "updatedAt": "2026-04-13T18:10:35.429Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be64983",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "peck",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/pɛk/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/peck-uk.mp3",
+    "definition": "Ăn hoặc nhích bằng chiếc mỏ (động vật)",
+    "examples": [
+      {
+        "sentence": "Con gà đực đang peck vào thức ăn",
+        "translation": "Con gà đực đang peck vào thức ăn",
+        "_id": "69dd319b2f51f7237be64984"
+      }
+    ],
+    "mnemonic": "Peck là nhích bằng chiếc mỏ.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.579Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.580Z",
+    "updatedAt": "2026-04-13T18:10:35.580Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd319b2f51f7237be64986",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "beak",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/biːk/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/beak-us.mp3",
+    "definition": "Mũi tên hoặc phần cứng ở đầu (của chim)",
+    "examples": [
+      {
+        "sentence": "Chim diều hâu có một chiếc beak đặc biệt sắc nhọn.",
+        "translation": "Chim diều hâu có một chiếc beak đặc biệt sắc nhọn.",
+        "_id": "69dd319b2f51f7237be64987"
+      }
+    ],
+    "mnemonic": "Beak là mũi tên của chim.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:35.719Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:35.720Z",
+    "updatedAt": "2026-04-13T18:10:35.720Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a02f51f7237be6498b",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "dial",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈdaɪəɫ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/dial-au.mp3",
+    "definition": "gọi điện",
+    "examples": [
+      {
+        "sentence": "Tôi đã gọi điện cho cấp cứu.",
+        "translation": "Tôi đã gọi số điện thoại cấp cứu.",
+        "_id": "69dd31a02f51f7237be6498c"
+      }
+    ],
+    "mnemonic": "Dial là từ dùng để gọi điện, nhớ hình ảnh tay bạn bấm số điện thoại.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:40.588Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:40.589Z",
+    "updatedAt": "2026-04-13T18:10:40.589Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a02f51f7237be6498e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "emergency services",
+    "category": "phrase",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ɛˈmɜːdʒənsi ˈsɜːrvɪsəz/",
+    "audio": "",
+    "definition": "dịch vụ khẩn cấp",
+    "examples": [
+      {
+        "sentence": "Trạm cứu hỏa là một phần của dịch vụ khẩn cấp.",
+        "translation": "Trạm cứu hỏa là một phần của dịch vụ cứu hỏa khẩn cấp.",
+        "_id": "69dd31a02f51f7237be6498f"
+      }
+    ],
+    "mnemonic": "Emergency services là dịch vụ khẩn cấp, hãy nhớ việc liên quan đến cuộc sống con người.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:40.670Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:40.671Z",
+    "updatedAt": "2026-04-13T18:10:40.671Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a02f51f7237be64991",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "flood",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/flʌd/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/flood-us.mp3",
+    "definition": "tràn lũ",
+    "examples": [
+      {
+        "sentence": "Xuống miền Nam, bạn đã bắt mắt được vụ tràn lũ.",
+        "translation": "Xuống miền Nam, bạn đã thấy được cảnh đất nước bị ảnh hưởng bởi lũ lụt.",
+        "_id": "69dd31a02f51f7237be64992"
+      }
+    ],
+    "mnemonic": "Flood là từ chỉ nước tràn xuống đồng ruộng, hãy nhớ việc ảnh hưởng của con người về môi trường.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:40.818Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:40.819Z",
+    "updatedAt": "2026-04-13T18:10:40.819Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a02f51f7237be64994",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "more severe weather",
+    "category": "phrase",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/moʊr ˈsɛvriˈwɛðər/",
+    "audio": "",
+    "definition": "mặt trời",
+    "examples": [
+      {
+        "sentence": "Mùa đông thường có thời tiết khắc nghiệt như thế này.",
+        "translation": "Thời tiết mùa đông thường khắc nghiệt hơn.",
+        "_id": "69dd31a02f51f7237be64995"
+      }
+    ],
+    "mnemonic": "More severe weather là thời tiết khắc nghiệt, hãy nhớ việc ảnh hưởng của thời tiết đến con người.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:40.892Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:40.893Z",
+    "updatedAt": "2026-04-13T18:10:40.893Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a02f51f7237be64997",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "account for",
+    "category": "phrasal_verb",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/əˈkaʊntfɔːr/",
+    "audio": "",
+    "definition": "giải thích lý do",
+    "examples": [
+      {
+        "sentence": "Giới chuyên gia cho rằng những trận mưa lớn gây ra bởi biến đổi khí hậu.",
+        "translation": "Những người chuyên nghiệp cho rằng những trận mưa lớn đó do biến đổi khí hậu gây ra.",
+        "_id": "69dd31a02f51f7237be64998"
+      }
+    ],
+    "mnemonic": "Account for là động từ giải thích lý do, hãy nhớ việc liên quan đến khoa học.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:40.968Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:40.968Z",
+    "updatedAt": "2026-04-13T18:10:40.968Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a12f51f7237be6499a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "soil",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/sɔɪl/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/soil-us.mp3",
+    "definition": "đất",
+    "examples": [
+      {
+        "sentence": "Nông trại của tôi đang trồng những loại rau củ.",
+        "translation": "Nông trại của tôi trồng những loại cây ăn quả.",
+        "_id": "69dd31a12f51f7237be6499b"
+      }
+    ],
+    "mnemonic": "Soil là từ chỉ đất, hãy nhớ việc liên quan đến môi trường.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:41.122Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:41.123Z",
+    "updatedAt": "2026-04-13T18:10:41.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a12f51f7237be6499d",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "runs off it rather than being soaked up",
+    "category": "collocation",
+    "partOfSpeech": "",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/rʌnz ɒf ɪt ræðər ðæn ˈbiːɪŋ ˈsoʊkɪd ʌp/",
+    "audio": "",
+    "definition": "",
+    "examples": [],
+    "mnemonic": "Runs off it rather than being soaked up là cụm từ chỉ nước chảy qua mặt đất, hãy nhớ việc liên quan đến nước.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:41.199Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:41.199Z",
+    "updatedAt": "2026-04-13T18:10:41.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a12f51f7237be6499f",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "College",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈkɒlɪd͡ʒ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/college-au.mp3",
+    "definition": "trường đại học",
+    "examples": [
+      {
+        "sentence": "Tôi đang học ở trường đại học.",
+        "translation": "Tôi đang học tại trường đại học.",
+        "_id": "69dd31a12f51f7237be649a0"
+      }
+    ],
+    "mnemonic": "College là từ chỉ trường học, hãy nhớ việc liên quan đến học tập.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:41.353Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:41.353Z",
+    "updatedAt": "2026-04-13T18:10:41.353Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a12f51f7237be649a2",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "definitely",
+    "category": "word",
+    "partOfSpeech": "adv",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈdɛf.nɪt.li/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/definitely-us.mp3",
+    "definition": "tốt",
+    "examples": [
+      {
+        "sentence": "Tôi sẽ đến tham dự lễ hội này.",
+        "translation": "Tôi sẽ tham gia lễ hội này.",
+        "_id": "69dd31a12f51f7237be649a3"
+      }
+    ],
+    "mnemonic": "Definitely là từ chỉ ý chí, hãy nhớ việc liên quan đến quyết định.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:41.509Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:41.509Z",
+    "updatedAt": "2026-04-13T18:10:41.509Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a12f51f7237be649a5",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "English language centre",
+    "category": "phrase",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ɪŋˈglɪʃ læŋwɪdʒ ˈsɛntə/",
+    "audio": "",
+    "definition": "trung tâm tiếng Anh",
+    "examples": [
+      {
+        "sentence": "Tôi đang học tại trung tâm tiếng Anh.",
+        "translation": "Tôi đang học tiếng Anh tại trung tâm tiếng Anh này.",
+        "_id": "69dd31a12f51f7237be649a6"
+      }
+    ],
+    "mnemonic": "English language centre là cụm từ chỉ trung tâm học tiếng Anh, hãy nhớ việc liên quan đến việc học.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:41.589Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:41.590Z",
+    "updatedAt": "2026-04-13T18:10:41.590Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a32f51f7237be649aa",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "tutor",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈtjuːtə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tutor-uk.mp3",
+    "definition": "giáo viên",
+    "examples": [
+      {
+        "sentence": "He was her English tutor.",
+        "translation": "Anh ta là giáo viên tiếng Anh của cô.",
+        "_id": "69dd31a32f51f7237be649ab"
+      }
+    ],
+    "mnemonic": "giáo viên là người dạy bạn",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:43.653Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:43.654Z",
+    "updatedAt": "2026-04-13T18:10:43.654Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a32f51f7237be649ad",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "colleagues",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈkɒliːɡz/",
+    "audio": "",
+    "definition": "cộng sự",
+    "examples": [
+      {
+        "sentence": "They are my colleagues at the office.",
+        "translation": "Họ là đồng nghiệp của tôi tại văn phòng.",
+        "_id": "69dd31a32f51f7237be649ae"
+      }
+    ],
+    "mnemonic": "cộng sự là những người đồng nghiệp của bạn",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:43.803Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:43.803Z",
+    "updatedAt": "2026-04-13T18:10:43.803Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a32f51f7237be649b0",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "brought it up",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phrasal_verb",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/brɒɡɪt ɪt ʌp/",
+    "audio": "",
+    "definition": "đưa ra một vấn đề",
+    "examples": [
+      {
+        "sentence": "He brought it up in the meeting.",
+        "translation": "Anh ta đưa ra vấn đề này trong cuộc họp.",
+        "_id": "69dd31a32f51f7237be649b1"
+      }
+    ],
+    "mnemonic": "brought it up là đưa ra một vấn đề để mọi người biết đến",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:43.878Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:43.878Z",
+    "updatedAt": "2026-04-13T18:10:43.878Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649b3",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "memorise",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/mɛˈmɒrɪzeɪ/",
+    "audio": "",
+    "definition": "nhớ",
+    "examples": [
+      {
+        "sentence": "I have to memorise this poem for the exam.",
+        "translation": "Tôi phải nhớ bài thơ này cho thi.",
+        "_id": "69dd31a42f51f7237be649b4"
+      }
+    ],
+    "mnemonic": "memorise là nhớ lại thông tin để sử dụng sau này",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.024Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.025Z",
+    "updatedAt": "2026-04-13T18:10:44.025Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649b6",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "Up to a point",
+    "category": "phrase",
+    "partOfSpeech": "phrase",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ʌp tu ə pɔɪnt/",
+    "audio": "",
+    "definition": "theo một mức độ nhất định",
+    "examples": [
+      {
+        "sentence": "He loves reading books, up to a point.",
+        "translation": "Anh ta yêu thích đọc sách, nhưng có một mức độ nhất định.",
+        "_id": "69dd31a42f51f7237be649b7"
+      }
+    ],
+    "mnemonic": "Up to a point là chỉ đến một mức độ nhất định",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.102Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.102Z",
+    "updatedAt": "2026-04-13T18:10:44.102Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649b9",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "rote learning",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈroʊt ˈlɜːrnɪŋ/",
+    "audio": "",
+    "definition": "học thuộc lòng",
+    "examples": [
+      {
+        "sentence": "He dislikes rote learning.",
+        "translation": "Anh ta không thích học thuộc lòng.",
+        "_id": "69dd31a42f51f7237be649ba"
+      }
+    ],
+    "mnemonic": "rote learning là học thuộc lòng để nhớ thông tin",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.179Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.180Z",
+    "updatedAt": "2026-04-13T18:10:44.180Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649bc",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "historical events",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/hɪˈstrɪkjəl ɪˈvɛntz/",
+    "audio": "",
+    "definition": "sự kiện lịch sử",
+    "examples": [
+      {
+        "sentence": "The teacher talked about historical events in class.",
+        "translation": "Giáo viên nói về các sự kiện lịch sử trong lớp học.",
+        "_id": "69dd31a42f51f7237be649bd"
+      }
+    ],
+    "mnemonic": "historical events là những sự kiện xảy ra trong quá khứ",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.256Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.256Z",
+    "updatedAt": "2026-04-13T18:10:44.256Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649bf",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "scientific laws",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈsaɪntɪfɪk ˈlɔːz/",
+    "audio": "",
+    "definition": "luật khoa học",
+    "examples": [
+      {
+        "sentence": "The student studied about scientific laws in school.",
+        "translation": "Học sinh học về các luật khoa học trong trường.",
+        "_id": "69dd31a42f51f7237be649c0"
+      }
+    ],
+    "mnemonic": "scientific laws là những luật được phát hiện bởi các nhà khoa học",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.331Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.332Z",
+    "updatedAt": "2026-04-13T18:10:44.332Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649c2",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "come up with new ideas",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phrasal_verb",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/kʌm ʌp wɪθ nju ˈaɪdɪəz/",
+    "audio": "",
+    "definition": "tạo ra ý tưởng mới",
+    "examples": [
+      {
+        "sentence": "He came up with new ideas for his business.",
+        "translation": "Anh ta tạo ra các ý tưởng mới cho công ty của mình.",
+        "_id": "69dd31a42f51f7237be649c3"
+      }
+    ],
+    "mnemonic": "come up with new ideas là tạo ra các ý tưởng mới để phát triển",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.406Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.406Z",
+    "updatedAt": "2026-04-13T18:10:44.406Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a42f51f7237be649c5",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "fast pace",
+    "category": "phrase",
+    "partOfSpeech": "phrase",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/fæst peɪs/",
+    "audio": "",
+    "definition": "tốc độ nhanh",
+    "examples": [
+      {
+        "sentence": "The office works at a fast pace.",
+        "translation": "Quán cà phê làm việc ở tốc độ nhanh.",
+        "_id": "69dd31a42f51f7237be649c6"
+      }
+    ],
+    "mnemonic": "fast pace là tốc độ làm việc nhanh chóng",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:44.487Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:44.488Z",
+    "updatedAt": "2026-04-13T18:10:44.488Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649ca",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "catch up",
+    "category": "phrasal_verb",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈkætʃ ʌp/",
+    "audio": "",
+    "definition": "bắt kịp",
+    "examples": [
+      {
+        "sentence": "She needs to catch up on her homework.",
+        "translation": "Cô cần phải bắt kịp công việc về nhà.",
+        "_id": "69dd31a62f51f7237be649cb"
+      }
+    ],
+    "mnemonic": "Hình ảnh người chạy bộ để bắt kịp nhóm bạn.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.373Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.374Z",
+    "updatedAt": "2026-04-13T18:10:46.374Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649cd",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "creative",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/kɹiˈeɪtɪv/",
+    "audio": "",
+    "definition": "sáng tạo",
+    "examples": [
+      {
+        "sentence": "The teacher encouraged creative learning in the classroom.",
+        "translation": "Giáo viên khuyến khích học sinh rèn luyện sáng tạo trong lớp học.",
+        "_id": "69dd31a62f51f7237be649ce"
+      }
+    ],
+    "mnemonic": "Hình ảnh ánh sáng sáng tạo chiếu lên trán bạn.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.527Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.527Z",
+    "updatedAt": "2026-04-13T18:10:46.527Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649d0",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "think of",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phr v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈðɪŋ ɒv/",
+    "audio": "",
+    "definition": "thì nghĩ",
+    "examples": [
+      {
+        "sentence": "What should I think of for my birthday present?",
+        "translation": "Tôi nên nghĩ ra gì để làm quà cho ngày sinh nhật của mình?",
+        "_id": "69dd31a62f51f7237be649d1"
+      }
+    ],
+    "mnemonic": "Hình ảnh người nghĩ về một ý tưởng sáng tạo.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.602Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.603Z",
+    "updatedAt": "2026-04-13T18:10:46.603Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649d3",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "raise their own voice",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phr v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈreɪz ˈðeɪ ˈoʊv/",
+    "audio": "",
+    "definition": "đưa tiếng nói của họ lên",
+    "examples": [
+      {
+        "sentence": "The students need to raise their own voice to express their opinions.",
+        "translation": "Học sinh cần phải đưa tiếng nói của họ lên để thể hiện ý kiến của mình.",
+        "_id": "69dd31a62f51f7237be649d4"
+      }
+    ],
+    "mnemonic": "Hình ảnh trẻ em tập thể hiện tiếng nói của mình.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.680Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.681Z",
+    "updatedAt": "2026-04-13T18:10:46.681Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649d6",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "put into practice",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phr v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈpʌt ˈɪntu ˈpræktɪs/",
+    "audio": "",
+    "definition": "làm theo",
+    "examples": [
+      {
+        "sentence": "We need to put into practice what we have learned in class.",
+        "translation": "Chúng ta cần phải làm theo những gì đã được học trong lớp học.",
+        "_id": "69dd31a62f51f7237be649d7"
+      }
+    ],
+    "mnemonic": "Hình ảnh người thực hành những gì đã học.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.757Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.757Z",
+    "updatedAt": "2026-04-13T18:10:46.757Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a62f51f7237be649d9",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "proper",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈpɹɔp.ə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/proper-us.mp3",
+    "definition": "thích hợp",
+    "examples": [
+      {
+        "sentence": "She used a proper method to solve the math problem.",
+        "translation": "Cô đã sử dụng phương pháp đúng để giải quyết bài toán toán học.",
+        "_id": "69dd31a62f51f7237be649da"
+      }
+    ],
+    "mnemonic": "Hình ảnh người thực hiện công việc một cách chính xác.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:46.908Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:46.908Z",
+    "updatedAt": "2026-04-16T05:35:53.306Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a72f51f7237be649dc",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "remain",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ɹɪˈmeɪn/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/remain-us.mp3",
+    "definition": "nghỉ lại",
+    "examples": [
+      {
+        "sentence": "The student must remain quiet until the teacher says it's okay to speak.",
+        "translation": "Học sinh cần phải im lặng cho đến khi giáo viên nói được phép nói chuyện.",
+        "_id": "69dd31a72f51f7237be649dd"
+      }
+    ],
+    "mnemonic": "Hình ảnh người im lặng và chờ đợi sự cho phép của giáo viên.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:47.059Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:47.060Z",
+    "updatedAt": "2026-04-13T18:10:47.060Z",
+    "__v": 0
+  },
+  {
+    "_id": "69dd31a72f51f7237be649df",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "figure out",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phr v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈfɪɡər aʊt/",
+    "audio": "",
+    "definition": "xác định",
+    "examples": [
+      {
+        "sentence": "It took me a while to figure out the answer to the math problem.",
+        "translation": "Tôi đã cần một thời gian để xác định được đáp án của bài toán toán học.",
+        "_id": "69dd31a72f51f7237be649e0"
+      }
+    ],
+    "mnemonic": "Hình ảnh người suy nghĩ và tìm hiểu.",
+    "level": 0,
+    "nextReview": "2026-04-13T18:10:47.134Z",
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "createdAt": "2026-04-13T18:10:47.135Z",
+    "updatedAt": "2026-04-13T18:10:47.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e07f936c9f92af8d6f8570",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "attractive",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/əˈtræktɪv/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/attractive-us.mp3",
+    "definition": "Hấp dẫn, thu hút",
+    "examples": [
+      {
+        "sentence": "The actress I find the most attractive is Carey Mulligan, who played Daisy in \"The Greate Gatsby\"",
+        "_id": "69e07f936c9f92af8d6f8571"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776320387/hiumr3tc9wqf08nzogmf.png",
+    "wordFamily": [
+      {
+        "word": "attractiveness",
+        "partOfSpeech": "n",
+        "_id": "69e07f936c9f92af8d6f8572"
+      },
+      {
+        "word": "attraction",
+        "partOfSpeech": "n",
+        "_id": "69e07f936c9f92af8d6f8573"
+      },
+      {
+        "word": "attract",
+        "partOfSpeech": "v",
+        "_id": "69e07f936c9f92af8d6f8574"
+      }
+    ],
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:48:32.823Z",
+    "createdAt": "2026-04-16T06:20:03.262Z",
+    "updatedAt": "2026-04-16T08:48:32.823Z",
+    "__v": 0,
+    "note": "<h3>1. <strong>Attraction</strong> (danh từ)</h3><p>👉 Nghĩa: <em>sự thu hút / điểm thu hút / lực hấp dẫn</em></p><ul><li><p>Dùng khi nói về <strong>thứ gì đó thu hút người khác</strong></p></li><li><p>Có thể là <strong>địa điểm, sự kiện, cảm xúc, lực vật lý</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>This park is a popular <strong>attraction</strong>.<br>→ Công viên này là một <em>điểm thu hút</em> nổi tiếng.</p></li><li><p>There is a strong <strong>attraction</strong> between them.<br>→ Có sự <em>thu hút mạnh mẽ</em> giữa họ.</p></li><li><p>Gravity is a force of <strong>attraction</strong>.<br>→ Trọng lực là một lực hấp dẫn.</p></li></ul><hr><h3>2. <strong>Attractiveness</strong> (danh từ)</h3><p>👉 Nghĩa: <em>sự hấp dẫn (về vẻ ngoài, tính chất, chất lượng)</em></p><ul><li><p>Dùng khi nói về <strong>mức độ hấp dẫn của một người/vật</strong></p></li><li><p>Thường mang tính <strong>đánh giá, cảm nhận</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>Her <strong>attractiveness</strong> comes from her confidence.<br>→ Sự hấp dẫn của cô ấy đến từ sự tự tin.</p></li><li><p>The <strong>attractiveness</strong> of the product depends on its design.<br>→ Độ hấp dẫn của sản phẩm phụ thuộc vào thiết kế.</p></li></ul><hr><h3>So sánh nhanh</h3><p>TừÝ nghĩa chínhDùng khi nào<strong>Attraction</strong>Cái thu hút / lực thu hútNói về <strong>thứ gây thu hútAttractiveness</strong>Mức độ hấp dẫnNói về <strong>chất lượng hấp dẫn</strong></p><hr><h3>Hiểu đơn giản:</h3><ul><li><p><strong>Attraction</strong> = <em>cái kéo bạn lại</em></p></li><li><p><strong>Attractiveness</strong> = <em>độ “cuốn” của nó</em></p></li></ul><p></p>",
+    "relatedWords": [
+      {
+        "word": "actress",
+        "partOfSpeech": "n",
+        "definition": "Nữ diễn viên",
+        "ipa": "/ˈæktrɪs/",
+        "_id": "69e082e65991a30e2a04123b"
+      },
+      {
+        "word": "actor",
+        "partOfSpeech": "n",
+        "definition": "Diễn viên (nam & nữ)",
+        "ipa": "/ˈæktə/",
+        "_id": "69e082e65991a30e2a04123c"
+      }
+    ]
+  },
+  {
+    "_id": "69e08f348db6d63eaf517c2e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "bald",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/bɔːld/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/bald-us.mp3",
+    "definition": "trọc đầu, hói đầu",
+    "examples": [
+      {
+        "sentence": "Although Jason is bald, he is one of the most attractive actors in the world",
+        "_id": "69e08f348db6d63eaf517c2f"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776324265/osgfazipwcagf7uhxaia.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "bald-faced",
+        "partOfSpeech": "adj",
+        "definition": "trơ tráo, trắng trợn, không biết xấu hổ",
+        "ipa": "/ˈbɔːldfeɪst/",
+        "_id": "69e08f348db6d63eaf517c30"
+      }
+    ],
+    "note": "<h3>1. <strong>Bald</strong> /bɔːld/</h3><p>👉 Nghĩa: <strong>bị hói, ít hoặc không có tóc</strong></p><ul><li><p>Dùng cho người (đầu hói)</p></li><li><p>Đôi khi dùng cho động vật hoặc nghĩa bóng</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He is <strong>bald</strong>.<br>→ Anh ấy bị hói.</p></li><li><p>A <strong>bald</strong> man<br>→ Người đàn ông đầu trọc</p></li></ul><hr><h3>2. <strong>Bold</strong> /boʊld/</h3><p>👉 Nghĩa: <strong>táo bạo, dũng cảm, nổi bật</strong></p><ul><li><p>Dùng để nói về tính cách hoặc hành động</p></li><li><p>Dùng trong thiết kế: <strong>chữ in đậm</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>She is very <strong>bold</strong>.<br>→ Cô ấy rất táo bạo / tự tin.</p></li><li><p>That was a <strong>bold</strong> decision.<br>→ Đó là một quyết định táo bạo.</p></li><li><p>Make the title <strong>bold</strong>.<br>→ Làm tiêu đề in đậm.</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:48:19.728Z",
+    "createdAt": "2026-04-16T07:26:44.218Z",
+    "updatedAt": "2026-04-16T08:48:19.729Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e090e08db6d63eaf517de5",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "blonde",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/blɒnd/",
+    "audio": "",
+    "definition": "tóc vàng (nữ)",
+    "examples": [
+      {
+        "sentence": "He is famous for his curly blonde hair",
+        "_id": "69e090e08db6d63eaf517de6"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776324684/nfwzakyp6q7ezp1kiav1.jpg",
+    "wordFamily": [
+      {
+        "word": "blond",
+        "partOfSpeech": "adj",
+        "definition": "tóc vàng (nam / chung)",
+        "ipa": "/blɒnd/",
+        "_id": "69e090e08db6d63eaf517de7"
+      }
+    ],
+    "relatedWords": [],
+    "note": "<p>Trong <strong>tiếng Anh-Mỹ hiện đại</strong>, nhiều người dùng <strong>blond cho cả nam và nữ</strong> (đỡ phải phân biệt)</p><p></p><p>Nhưng trong <strong>viết chuẩn / formal</strong>, vẫn nên:</p><ul><li><p><strong>blond → nam</strong></p></li><li><p><strong>blonde → nữ</strong></p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:59.211Z",
+    "createdAt": "2026-04-16T07:33:52.672Z",
+    "updatedAt": "2026-04-16T08:47:59.211Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0927cb909a8744218bcdb",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "curly",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/ˈkɜːli/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/curly-uk.mp3",
+    "definition": "tóc xoăn",
+    "examples": [
+      {
+        "sentence": "He is famous for his curly blonde hair",
+        "_id": "69e0927cb909a8744218bcdc"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [
+      {
+        "word": "curl",
+        "partOfSpeech": "v",
+        "definition": "uốn cong / làm xoăn / cuộn lại",
+        "ipa": "/kɜːl/",
+        "_id": "69e0927cb909a8744218bcdd"
+      },
+      {
+        "word": "curl",
+        "partOfSpeech": "n",
+        "definition": "lọn xoăn / đường cong / sự cuộn",
+        "ipa": "/kɜːl/",
+        "_id": "69e0927cb909a8744218bcde"
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "curved",
+        "partOfSpeech": "adj",
+        "definition": "cong",
+        "ipa": "/kɜːvd/",
+        "_id": "69e0927cb909a8744218bcdf"
+      }
+    ],
+    "note": "<h2>1. <strong>Curl (động từ – verb)</strong></h2><p>👉 Nghĩa chính: <strong>uốn cong / làm xoăn / cuộn lại</strong></p><h3>Cách dùng phổ biến:</h3><ul><li><p><strong>Tóc xoăn</strong></p><ul><li><p>She <strong>curls</strong> her hair every morning.<br>→ Cô ấy uốn tóc mỗi sáng.</p></li></ul></li><li><p><strong>Vật gì đó cong lại</strong></p><ul><li><p>The paper <strong>curled</strong> at the edges.<br>→ Tờ giấy bị cong ở mép.</p></li></ul></li><li><p><strong>Cuộn người / co lại</strong></p><ul><li><p>He <strong>curled up</strong> on the sofa.<br>→ Anh ấy cuộn mình trên ghế sofa.</p></li></ul></li></ul><hr><h2>2. <strong>Curl (danh từ – noun)</strong></h2><p>👉 Nghĩa: <strong>lọn xoăn / đường cong / sự cuộn</strong></p><h3>Cách dùng:</h3><ul><li><p><strong>Lọn tóc</strong></p><ul><li><p>She has beautiful <strong>curls</strong>.<br>→ Cô ấy có những lọn tóc xoăn đẹp.</p></li></ul></li><li><p><strong>Hình dạng cong</strong></p><ul><li><p>The smoke rose in <strong>curls</strong>.<br>→ Khói bay lên thành từng vòng cong.</p></li></ul></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:51.931Z",
+    "createdAt": "2026-04-16T07:40:44.692Z",
+    "updatedAt": "2026-04-16T08:47:51.931Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e092eeb909a8744218bd20",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "middle-aged",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/ˌmɪdl̩ˈeɪd͡ʒd/",
+    "audio": "",
+    "definition": "tuổi trung niên",
+    "examples": [
+      {
+        "sentence": "Angelina Jolie, a middle-aged actress born in 1975, adopted a Vietnamese boy in 2007",
+        "_id": "69e092eeb909a8744218bd21"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v",
+        "definition": "nhận nuôi",
+        "ipa": "/əˈdɒpt/",
+        "_id": "69e092eeb909a8744218bd22"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:33.981Z",
+    "createdAt": "2026-04-16T07:42:38.788Z",
+    "updatedAt": "2026-04-16T08:47:33.982Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0935ab909a8744218bdf1",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "elderly",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/ˈeldəli/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/elderly-us.mp3",
+    "definition": "người lớn tuổi",
+    "examples": [
+      {
+        "sentence": "We can never forget the handsome elderly actor - Al Pacino",
+        "_id": "69e0935ab909a8744218bdf2"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776325428/tcxwt2h6hd0svgsnoqnb.jpg",
+    "wordFamily": [
+      {
+        "word": "adult",
+        "partOfSpeech": "n",
+        "definition": "người lớn",
+        "ipa": "/ˈædʌlt/",
+        "_id": "69e0935ab909a8744218bdf3"
+      }
+    ],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:23.698Z",
+    "createdAt": "2026-04-16T07:44:26.810Z",
+    "updatedAt": "2026-04-16T08:47:23.698Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09386b909a8744218be0e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "light hair - dark hair",
+    "category": "word",
+    "partOfSpeech": "",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "",
+    "audio": "",
+    "definition": "tóc sáng màu - tóc tối màu",
+    "examples": [
+      {
+        "sentence": "She changed her hair color from dark to light",
+        "_id": "69e09386b909a8744218be0f"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.6,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:11.272Z",
+    "createdAt": "2026-04-16T07:45:10.266Z",
+    "updatedAt": "2026-04-16T08:47:11.272Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09433b909a8744218be2f",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "smart",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/smɑːt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/smart-us.mp3",
+    "definition": "lịch thiệp, hiện đại",
+    "examples": [
+      {
+        "sentence": "Leonardo DiCaprio looked smart and elegant in his dark suit in \"The Wolf of Wall Street\"",
+        "_id": "69e09433b909a8744218be30"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776325572/e2um9cbwmvntfm5va7fp.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "clever",
+        "partOfSpeech": "adj",
+        "definition": "tthông minh",
+        "ipa": "/ˈklɛvər/",
+        "_id": "69e09433b909a8744218be31"
+      },
+      {
+        "word": "intelligent",
+        "partOfSpeech": "adj",
+        "definition": "thông minh, sáng suốt",
+        "ipa": "/ɪnˈtelədʒənt/",
+        "_id": "69e09433b909a8744218be32"
+      },
+      {
+        "word": "smart",
+        "partOfSpeech": "adj",
+        "definition": "thông minh",
+        "ipa": "/smɑːt/",
+        "_id": "69e09433b909a8744218be33"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:47:05.960Z",
+    "createdAt": "2026-04-16T07:48:03.534Z",
+    "updatedAt": "2026-04-16T08:47:05.960Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0949cb909a8744218be57",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "elegant",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/ˈeləɡənt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/elegant-uk.mp3",
+    "definition": "thanh lịch",
+    "examples": [
+      {
+        "sentence": "Leonardo DiCaprio looked smart and elegant in his dark suit in \"The Wolf of Wall Street\"",
+        "_id": "69e0949cb909a8744218be58"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776325717/yawsrtctl6ui2a3oigd3.jpg",
+    "wordFamily": [
+      {
+        "word": "elegance",
+        "partOfSpeech": "n",
+        "definition": "sự thanh lịch",
+        "ipa": "",
+        "_id": "69e0949cb909a8744218be59"
+      }
+    ],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:46:49.799Z",
+    "createdAt": "2026-04-16T07:49:48.086Z",
+    "updatedAt": "2026-04-16T08:46:49.799Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0952bb909a8744218be7e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "pale",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/peɪl/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/pale-us.mp3",
+    "definition": "nhợt nhạt",
+    "examples": [
+      {
+        "sentence": "I can never forget the pale face of Szpilman, thi pianist, as he struggled to survive in World War II",
+        "_id": "69e0952bb909a8744218be7f"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776325911/s5cfxt9ocgg4jtslqsjo.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:46:35.892Z",
+    "createdAt": "2026-04-16T07:52:11.016Z",
+    "updatedAt": "2026-04-16T08:46:35.893Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09757b909a8744218beaa",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "struggle",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈstrʌɡəl/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/struggle-us.mp3",
+    "definition": "đấu tranh, chật vật, vật lộn",
+    "examples": [
+      {
+        "sentence": "He struggled to find a job in the city.",
+        "_id": "69e09757b909a8744218beab"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776326362/yixbokngos0acyxabtpg.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "fight",
+        "partOfSpeech": "v",
+        "definition": "đánh nhau / chiến đấu",
+        "ipa": "/faɪt/",
+        "_id": "69e09757b909a8744218beac"
+      },
+      {
+        "word": "battle",
+        "partOfSpeech": "n",
+        "definition": "trận chiến lớn / cuộc chiến lâu dài",
+        "ipa": "/ˈbætl/",
+        "_id": "69e09757b909a8744218bead"
+      }
+    ],
+    "note": "<h2>1. <strong>Struggle</strong></h2><p>👉 Nghĩa: <strong>chật vật, vật lộn, cố gắng trong khó khăn</strong></p><ul><li><p>Không nhất thiết có đối thủ rõ ràng</p></li><li><p>Nhấn mạnh <strong>quá trình khó khăn</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>I <strong>struggle</strong> with English pronunciation.<br>→ Tôi vật lộn với phát âm tiếng Anh.</p></li><li><p>He is <strong>struggling</strong> to find a job.<br>→ Anh ấy đang chật vật tìm việc.</p></li></ul><p>👉 Cảm giác: <em>mệt, khó, nhưng vẫn cố</em></p><hr><h2>2. <strong>Fight</strong></h2><p>👉 Nghĩa: <strong>đánh nhau / chiến đấu / chống lại</strong></p><ul><li><p>Có <strong>đối tượng cụ thể</strong></p></li><li><p>Dùng cả nghĩa đen lẫn nghĩa bóng</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>They <strong>fought</strong> each other.<br>→ Họ đánh nhau.</p></li><li><p>She is <strong>fighting</strong> cancer.<br>→ Cô ấy đang chiến đấu với bệnh ung thư.</p></li></ul><p>👉 Cảm giác: <em>đối đầu trực tiếp</em></p><hr><h2>3. <strong>Battle</strong></h2><p>👉 Nghĩa: <strong>trận chiến lớn / cuộc chiến lâu dài</strong></p><ul><li><p>Trang trọng hơn <strong>fight</strong></p></li><li><p>Thường dùng cho <strong>cuộc chiến kéo dài, nghiêm trọng</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He lost his <strong>battle</strong> with illness.<br>→ Anh ấy đã thua trong cuộc chiến với bệnh tật.</p></li><li><p>The two companies are in a <strong>battle</strong> for market share.<br>→ Hai công ty đang trong cuộc chiến giành thị phần.</p></li></ul><p>👉 Cảm giác: <em>lớn hơn, dài hơn, “epic” hơn fight</em></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:46:06.042Z",
+    "createdAt": "2026-04-16T08:01:27.375Z",
+    "updatedAt": "2026-04-16T08:46:06.042Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0981eb909a8744218bedd",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "survive",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/səˈvʌɪv/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/survive-us.mp3",
+    "definition": "sống sót, vượt qua",
+    "examples": [
+      {
+        "sentence": "He survived the accident.",
+        "_id": "69e0981eb909a8744218bede"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [
+      {
+        "word": "survival",
+        "partOfSpeech": "n",
+        "definition": "sự sống sót",
+        "ipa": "/sərˈvaɪvəl/",
+        "_id": "69e0981eb909a8744218bedf"
+      },
+      {
+        "word": "survivor",
+        "partOfSpeech": "n",
+        "definition": "người sống sót",
+        "ipa": "/sərˈvaɪvər/",
+        "_id": "69e0981eb909a8744218bee0"
+      }
+    ],
+    "relatedWords": [],
+    "note": "<h2>1. <strong>Survive</strong> (động từ – verb)</h2><p>👉 Nghĩa: <strong>sống sót / vượt qua</strong></p><p><strong>Cấu trúc:</strong></p><ul><li><p>survive + something</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>survived</strong> the accident.<br>→ Anh ấy sống sót sau tai nạn.</p></li><li><p>I <strong>survived</strong> the exam. 😄<br>→ Tôi vượt qua kỳ thi.</p></li></ul><hr><h2>2. <strong>Survivor</strong> (danh từ – noun)</h2><p>👉 Nghĩa: <strong>người sống sót</strong></p><ul><li><p>Chỉ <strong>người</strong> đã sống sót sau một sự kiện</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He is the only <strong>survivor</strong>.<br>→ Anh ấy là người sống sót duy nhất.</p></li><li><p>Cancer <strong>survivors</strong> need support.<br>→ Những người sống sót sau ung thư cần được hỗ trợ.</p></li></ul><hr><h2>3. <strong>Survival</strong> (danh từ – noun)</h2><p>👉 Nghĩa: <strong>sự sống sót / sự tồn tại</strong></p><ul><li><p>Nói về <strong>trạng thái / quá trình sống sót</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p><strong>Survival</strong> is difficult in the desert.<br>→ Việc sống sót trong sa mạc rất khó.</p></li><li><p>This is a matter of <strong>survival</strong>.<br>→ Đây là vấn đề sống còn.</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:45:54.215Z",
+    "createdAt": "2026-04-16T08:04:46.027Z",
+    "updatedAt": "2026-04-16T08:45:54.215Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e098b1b909a8744218bf12",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "brief period of time",
+    "category": "collocation",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/briːf ˈpɪəriəd/",
+    "audio": "",
+    "definition": "thời gian ngắn (giai đoạn ngắn)",
+    "examples": [
+      {
+        "sentence": "There was a brief period of time  when he was ill, ...",
+        "_id": "69e098b1b909a8744218bf13"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:45:28.845Z",
+    "createdAt": "2026-04-16T08:07:13.431Z",
+    "updatedAt": "2026-04-16T08:45:28.845Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0991bb909a8744218bf44",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "recover",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/rɪˈkʌvə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/recover-1-us.mp3",
+    "definition": "hồi phục",
+    "examples": [
+      {
+        "sentence": "Tôi cần thời gian để recover sức khỏe của mình.",
+        "_id": "69e0991bb909a8744218bf45"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [
+      {
+        "word": "cover",
+        "partOfSpeech": "v",
+        "definition": "Che phủ",
+        "ipa": "/ˈkʌvər/",
+        "_id": "69e0991bb909a8744218bf46"
+      },
+      {
+        "word": "recovery",
+        "partOfSpeech": "n",
+        "definition": "Sự hồi phục",
+        "ipa": "/rɪˈkʌvəri/",
+        "_id": "69e0991bb909a8744218bf47"
+      }
+    ],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.6,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:45:12.521Z",
+    "createdAt": "2026-04-16T08:08:59.797Z",
+    "updatedAt": "2026-04-16T08:45:12.521Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09991b909a8744218bf78",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "the onset of + st",
+    "category": "phrasal_verb",
+    "partOfSpeech": "phrase",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "",
+    "audio": "",
+    "definition": "sự bắt đầu, sự khởi đầu, hoặc sự khởi phát",
+    "examples": [
+      {
+        "sentence": "The onset of winter is marked by cold temperatures.",
+        "_id": "69e09991b909a8744218bf79"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [
+      {
+        "word": "onset",
+        "partOfSpeech": "n",
+        "definition": "bắt đầu của một sự kiện hoặc trạng thái",
+        "ipa": "/ɔn.sɛt/",
+        "_id": "69e09991b909a8744218bf7a"
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "beginning",
+        "partOfSpeech": "n",
+        "definition": "",
+        "ipa": "",
+        "_id": "69e09991b909a8744218bf7b"
+      },
+      {
+        "word": "start",
+        "partOfSpeech": "v",
+        "definition": "",
+        "ipa": "",
+        "_id": "69e09991b909a8744218bf7c"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:45:02.098Z",
+    "createdAt": "2026-04-16T08:10:57.531Z",
+    "updatedAt": "2026-04-16T08:45:02.098Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e099f8b909a8744218bfb4",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "adulthood",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈædʌlthʊd",
+    "audio": "",
+    "definition": "tuổi trường thành",
+    "examples": [
+      {
+        "sentence": "She is celebrating her adulthood with her friends.",
+        "_id": "69e099f8b909a8744218bfb5"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [
+      {
+        "word": "adult",
+        "partOfSpeech": "n",
+        "definition": "người lớn",
+        "ipa": "/ˈædəlt/",
+        "_id": "69e099f8b909a8744218bfb6"
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "childhood",
+        "partOfSpeech": "n",
+        "definition": "thời thơ ấu",
+        "ipa": "/ˈtʃaɪldhʊd/",
+        "_id": "69e099f8b909a8744218bfb7"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:44:38.326Z",
+    "createdAt": "2026-04-16T08:12:40.496Z",
+    "updatedAt": "2026-04-16T08:44:38.326Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09a40b909a8744218bff2",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "beyond",
+    "category": "word",
+    "partOfSpeech": "adv",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/bɪˈjɒnd/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/beyond-us.mp3",
+    "definition": "vượt ra, ngoài",
+    "examples": [
+      {
+        "sentence": "The movie goes beyond what we expected.",
+        "_id": "69e09a40b909a8744218bff3"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:44:04.724Z",
+    "createdAt": "2026-04-16T08:13:52.781Z",
+    "updatedAt": "2026-04-16T08:44:04.724Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09c5cb909a8744218c0e0",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "faint",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/feɪnt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/faint-us.mp3",
+    "definition": "ngất xỉu",
+    "examples": [
+      {
+        "sentence": "His face was so pale. He looked as if he might faint.",
+        "_id": "69e09c5cb909a8744218c0e1"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:43:41.003Z",
+    "createdAt": "2026-04-16T08:22:52.008Z",
+    "updatedAt": "2026-04-16T08:43:41.003Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09ea8b909a8744218c145",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "nutrient",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈnjuːtriənt/",
+    "audio": "",
+    "definition": "Chất dinh dưỡng",
+    "examples": [
+      {
+        "sentence": "Food is a nutrient-rich diet.",
+        "_id": "69e09ea8b909a8744218c146"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:43:20.849Z",
+    "createdAt": "2026-04-16T08:32:40.673Z",
+    "updatedAt": "2026-04-16T08:43:20.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09f10b909a8744218c1a9",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "unfortunate",
+    "category": "word",
+    "partOfSpeech": "adj",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ʌnˈfɔːtʃənət/",
+    "audio": "",
+    "definition": "không may",
+    "examples": [
+      {
+        "sentence": "It is unfortunate that so many people feel so unhappy about their physical appearance",
+        "_id": "69e09f10b909a8744218c1aa"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 0,
+    "interval": 1,
+    "easeFactor": 2.1799999999999997,
+    "repetitionCount": 0,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:42:57.438Z",
+    "createdAt": "2026-04-16T08:34:24.075Z",
+    "updatedAt": "2026-04-16T08:42:57.439Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09f6eb909a8744218c20e",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "wrinkle",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e07564d013c1957c32db95",
+    "ipa": "/ˈrɪŋkəl/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/wrinkle-us.mp3",
+    "definition": "nếp nhăn",
+    "examples": [
+      {
+        "sentence": "The wrinkle on her forehead made her look older.",
+        "_id": "69e09f6eb909a8744218c20f"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776328547/iy4xakfwkwlpsbatpyng.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 0,
+    "interval": 1,
+    "easeFactor": 2.1799999999999997,
+    "repetitionCount": 0,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:42:05.863Z",
+    "createdAt": "2026-04-16T08:35:58.135Z",
+    "updatedAt": "2026-04-16T08:42:05.863Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e09fd9b909a8744218c273",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "brag",
+    "category": "word",
+    "partOfSpeech": "v",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/bræɡ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/brag-uk.mp3",
+    "definition": "khoe khoang",
+    "examples": [
+      {
+        "sentence": "Kareem always bragged about how smart he was until he failed the final exam",
+        "_id": "69e09fd9b909a8744218c274"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-17T08:41:38.600Z",
+    "createdAt": "2026-04-16T08:37:45.754Z",
+    "updatedAt": "2026-04-16T08:41:38.600Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0b7f3327b94cf0d761d4d",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "disguise",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/dɪsˈɡaɪz/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/disguise-us.mp3",
+    "definition": "Đồ cải trang, mặt nạ",
+    "examples": [
+      {
+        "sentence": "His disguise didn’t fool anyone.",
+        "_id": "69e0b7f3327b94cf0d761d4e"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776334567/udtf4gyhuhdc8wwrr64d.jpg",
+    "wordFamily": [
+      {
+        "word": "disguise",
+        "partOfSpeech": "v",
+        "definition": "cải trang",
+        "ipa": "/dɪsˈɡaɪz/",
+        "_id": "69e0b7f3327b94cf0d761d4f"
+      }
+    ],
+    "relatedWords": [],
+    "note": "<h2>1. <strong>to wear a disguise</strong></h2><p>👉 Nghĩa: <strong>mặc đồ cải trang / hóa trang</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>wore a disguise</strong> to hide his identity.<br>→ Anh ta cải trang để che giấu danh tính.</p></li></ul><hr><h2>2. <strong>in disguise</strong></h2><p>👉 Nghĩa: <strong>được cải trang / trong lốt ai đó, cái gì đó</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>He is a police officer <strong>in disguise</strong>.<br>→ Anh ta là cảnh sát cải trang.</p></li><li><p>It was a blessing <strong>in disguise</strong>. ⭐<br>→ Đó là “cái rủi hóa cái may” (cụm rất hay)</p></li></ul><hr><h2>3. <strong>to disguise sb/sth as sb/sth</strong></h2><p>👉 Nghĩa: <strong>cải trang ai/cái gì thành ai/cái gì</strong></p><p><strong>Cấu trúc:</strong></p><ul><li><p>disguise A as B</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>She <strong>disguised herself as</strong> a man.<br>→ Cô ấy cải trang thành đàn ông.</p></li><li><p>He <strong>disguised his voice as</strong> someone else.<br>→ Anh ta giả giọng người khác.</p></li></ul><hr><h2>Tóm lại cực dễ nhớ:</h2><p><strong>wear a disguise    </strong>mặc đồ cải trang</p><p><strong>in disguise   </strong>đang cải trang</p><p><strong>disguise A as B     </strong>cải trang A thành B</p><hr><h2>Tip học nhanh:</h2><ul><li><p><strong>wear</strong> → hành động mặc</p></li><li><p><strong>in</strong> → trạng thái đang ở trong</p></li><li><p><strong>disguise as</strong> → biến thành</p></li></ul><p></p>",
+    "level": 0,
+    "interval": 1,
+    "easeFactor": 2.1799999999999997,
+    "repetitionCount": 0,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:45:38.932Z",
+    "createdAt": "2026-04-16T10:20:35.355Z",
+    "updatedAt": "2026-04-17T05:45:38.932Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0b841327b94cf0d761dcf",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "outfit",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈaʊtfɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/outfit-uk.mp3",
+    "definition": "Bộ trang phục",
+    "examples": [
+      {
+        "sentence": "She bought a new outfit for the party.",
+        "_id": "69e0b841327b94cf0d761dd0"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "<ol><li><p>Countable</p></li><li><p>✅ <strong>in an/the outfit</strong></p><p>👉 Nghĩa: <strong>mặc (đang ở trong) một bộ trang phục</strong></p><ul><li><p>Nhấn mạnh <strong>trạng thái đang mặc</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>She looks beautiful <strong>in that outfit</strong>.<br>→ Cô ấy trông rất đẹp trong bộ đồ đó.</p></li><li><p>He came <strong>in a strange outfit</strong>.<br>→ Anh ấy đến với một bộ trang phục kỳ lạ.</p></li></ul><hr><h2>⚠️ Lưu ý quan trọng</h2><p>❌ Không nói:</p><ul><li><p><em>wear in an outfit</em> (sai)</p></li></ul><p>✅ Đúng là:</p><ul><li><p><strong>wear an outfit</strong> → hành động mặc</p></li><li><p><strong>be in an outfit</strong> → trạng thái đang mặc</p></li></ul><hr><h2>So sánh nhanh</h2><p>Cách dùngÝ nghĩa<strong>wear an outfit</strong>mặc (hành động)<strong>be in an outfit</strong>đang mặc (trạng thái)</p><hr><h2>Ví dụ dễ hiểu:</h2><ul><li><p>She is <strong>wearing an outfit</strong>.<br>→ Cô ấy đang mặc một bộ đồ.</p></li><li><p>She is <strong>in an outfit</strong>.<br>→ Cô ấy đang ở trong bộ đồ đó (nhấn mạnh ngoại hình)</p></li></ul><hr><h2>Tip nhớ nhanh:</h2><ul><li><p><strong>wear</strong> = hành động</p></li><li><p><strong>in</strong> = trạng thái (giống “ở trong”)</p></li></ul></li></ol><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:44:44.747Z",
+    "createdAt": "2026-04-16T10:21:53.588Z",
+    "updatedAt": "2026-04-17T05:44:44.748Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0b91a327b94cf0d762002",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "pyjamas",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/pəˈdʒɑːməz/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/pyjamas-uk.mp3",
+    "definition": "đồ ngủ",
+    "examples": [
+      {
+        "sentence": "She was wearing a dressing gown and pyjamas",
+        "_id": "69e0b91a327b94cf0d762003"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776335090/aklvvflzm2nkchnfizlx.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "<h2>✅ <strong>to wear / put on a pair of pyjamas</strong></h2><p>👉 Nghĩa: <strong>mặc một bộ đồ ngủ</strong></p><hr><h2>🔥 Phân biệt quan trọng:</h2><h3>1. <strong>put on a pair of pyjamas</strong></h3><p>👉 Nhấn mạnh <strong>hành động mặc vào</strong></p><ul><li><p>I <strong>put on my pyjamas</strong> before bed.<br>→ Tôi mặc đồ ngủ trước khi đi ngủ.</p></li></ul><hr><h3>2. <strong>wear a pair of pyjamas</strong></h3><p>👉 Nhấn mạnh <strong>trạng thái đang mặc</strong></p><ul><li><p>He is <strong>wearing pyjamas</strong>.<br>→ Anh ấy đang mặc đồ ngủ.</p></li></ul><hr><h2>⚠️ Lưu ý nhỏ (rất hay sai):</h2><ul><li><p><strong>pyjamas</strong> thường dùng <strong>số nhiều</strong><br>✔ a pair of pyjamas (chuẩn)<br>✔ wear pyjamas (thường dùng hơn, không cần “a pair of”)</p></li></ul><hr><h2>So sánh nhanh:</h2><p>CụmNghĩa<strong>put on pyjamas</strong>mặc vào<strong>wear pyjamas</strong>đang mặc</p><hr><h2>Tip nhớ nhanh:</h2><ul><li><p><strong>put on</strong> = hành động</p></li><li><p><strong>wear</strong> = trạng thái</p></li></ul><hr><h2>Ví dụ combo dễ nhớ:</h2><ul><li><p>I <strong>put on my pyjamas</strong> → hành động</p></li><li><p>I am <strong>wearing pyjamas</strong> → trạng thái</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:44:31.518Z",
+    "createdAt": "2026-04-16T10:25:30.837Z",
+    "updatedAt": "2026-04-17T05:44:31.518Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0ba07327b94cf0d7620d2",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "waterproof",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈwɔːtəpruːf/",
+    "audio": "",
+    "definition": "trang phục chống nước",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0ba07327b94cf0d7620d3"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776335324/iskvm2jewyplk2zhmudf.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:44:12.103Z",
+    "createdAt": "2026-04-16T10:29:27.540Z",
+    "updatedAt": "2026-04-17T05:44:12.104Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0ba90327b94cf0d762142",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "swimming costume",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈkɒstjʊm/",
+    "audio": "",
+    "definition": "đồ bơi",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0ba90327b94cf0d762143"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776335501/yzlum2jdbczpspkvvdo7.jpg",
+    "wordFamily": [
+      {
+        "word": "costume",
+        "partOfSpeech": "n",
+        "definition": "trang phục",
+        "ipa": "/ˈkɒstjʊm/",
+        "_id": "69e0ba90327b94cf0d762144"
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "swimsuit",
+        "partOfSpeech": "n",
+        "definition": "đồ bơi",
+        "ipa": "/ˈswɪmsuːt",
+        "_id": "69e0ba90327b94cf0d762145"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:39:14.738Z",
+    "createdAt": "2026-04-16T10:31:44.668Z",
+    "updatedAt": "2026-04-17T05:39:14.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0bcd4327b94cf0d7621b5",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "pullover",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈpʊlˌəʊvə/",
+    "audio": "",
+    "definition": "áo ấm chui đầu dài tay / áo len",
+    "examples": [
+      {
+        "sentence": "I bought a new pullover for winter.",
+        "_id": "69e0bcd4327b94cf0d7621b6"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776336081/poo5jan5h90bgxvivh9z.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "sweater",
+        "partOfSpeech": "n",
+        "definition": "",
+        "ipa": "/ˈswetə/",
+        "_id": "69e0bcd4327b94cf0d7621b7"
+      },
+      {
+        "word": "jumper",
+        "partOfSpeech": "n",
+        "definition": "",
+        "ipa": "/ˈdʒʌmpə/",
+        "_id": "69e0bcd4327b94cf0d7621b8"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:38:52.419Z",
+    "createdAt": "2026-04-16T10:41:24.659Z",
+    "updatedAt": "2026-04-17T05:38:52.419Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0bd9a327b94cf0d76222f",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "collar",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈkɒlə/",
+    "audio": "",
+    "definition": "cổ áo",
+    "examples": [
+      {
+        "sentence": "He loosened his collar and tie",
+        "_id": "69e0bd9a327b94cf0d762230"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776336141/ixp7n2lv3yhcdv4i480q.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "white-collar",
+        "partOfSpeech": "n",
+        "definition": "lao động trí thức",
+        "ipa": "",
+        "_id": "69e0bd9a327b94cf0d762231"
+      },
+      {
+        "word": "blue-collar",
+        "partOfSpeech": "n",
+        "definition": "lao động chân tay",
+        "ipa": "",
+        "_id": "69e0bd9a327b94cf0d762232"
+      }
+    ],
+    "note": "<h2>1. <strong>to turn up the collar</strong></h2><p>👉 Nghĩa: <strong>dựng cổ áo lên</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>turned up the collar</strong> of his coat.<br>→ Anh ấy dựng cổ áo khoác lên.</p></li></ul><p>📌 Thường dùng khi trời lạnh hoặc để tạo style</p><hr><h2>2. <strong>to be hot under the collar</strong> (idiom)</h2><p>👉 Nghĩa: <strong>rất tức giận / bực bội</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>He got <strong>hot under the collar</strong> when he heard the news.<br>→ Anh ấy nổi giận khi nghe tin đó.</p></li></ul><hr><h2>⚠️ Lưu ý quan trọng (bạn đang hiểu hơi sai chỗ này):</h2><ul><li><p>❌ Không dùng nghĩa “ngượng ngùng”</p></li><li><p>✅ Chỉ dùng cho <strong>tức giận / bực bội</strong></p></li></ul><hr><h2>🧠 Vì sao lại có nghĩa này?</h2><ul><li><p>“hot” + “collar” → kiểu <strong>nóng lên ở cổ</strong> → tượng trưng cho <strong>tức giận</strong></p></li></ul><hr><h2>🎯 So sánh nhanh:</h2><p>CụmNghĩa<strong>turn up the collar</strong>dựng cổ áo<strong>hot under the collar</strong>tức giận</p><hr><h2>💡 Tip nhớ:</h2><ul><li><p><strong>turn up</strong> = hành động</p></li><li><p><strong>hot under the collar</strong> = cảm xúc (idiom)</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:38:35.317Z",
+    "createdAt": "2026-04-16T10:44:42.802Z",
+    "updatedAt": "2026-04-17T05:38:35.317Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0bddc327b94cf0d7622a8",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "button",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈbʌtn̩/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/button-us.mp3",
+    "definition": "khuy",
+    "examples": [
+      {
+        "sentence": "A button was missing from his shirt.",
+        "_id": "69e0bddc327b94cf0d7622a9"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776336325/ilueeofkzisk1nrgqtfi.jpg",
+    "wordFamily": [
+      {
+        "word": "button",
+        "partOfSpeech": "v",
+        "definition": "cài khuy",
+        "ipa": "/ˈbʌtn̩/",
+        "_id": "69e0be2b327b94cf0d762387"
+      }
+    ],
+    "relatedWords": [],
+    "note": "<h2>✅ 1. <strong>do up / undo (a button)</strong> (BrE – British English)</h2><p>👉 Nghĩa:</p><ul><li><p><strong>do up</strong> = cài khuy</p></li><li><p><strong>undo</strong> = tháo khuy</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>did up</strong> his shirt.<br>→ Anh ấy cài khuy áo.</p></li><li><p>She <strong>undid</strong> the top button.<br>→ Cô ấy tháo cúc trên cùng.</p></li></ul><p>📌 “do up” dùng cho cả:</p><ul><li><p>button (cúc)</p></li><li><p>zip (khóa kéo)</p></li><li><p>coat, jacket…</p></li></ul><hr><h2>✅ 2. <strong>button / unbutton (a shirt, jacket...)</strong> (AmE – American English)</h2><p>👉 Nghĩa:</p><ul><li><p><strong>button</strong> = cài cúc</p></li><li><p><strong>unbutton</strong> = mở cúc</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>buttoned</strong> his shirt.<br>→ Anh ấy cài cúc áo.</p></li><li><p>She <strong>unbuttoned</strong> her jacket.<br>→ Cô ấy mở cúc áo khoác.</p></li></ul><hr><h2>⚠️ Điểm bạn cần sửa:</h2><p>❌ Không nói:</p><ul><li><p><em>button a button</em> (nghe không tự nhiên)</p></li></ul><p>✔ Đúng:</p><ul><li><p><strong>button a shirt / jacket</strong></p></li><li><p><strong>do up a button</strong></p></li></ul><hr><h2>🔥 So sánh nhanh:</h2><p>BrEAmENghĩado upbuttoncài cúcundounbuttontháo cúc</p><hr><h2>💡 Mẹo nhớ:</h2><ul><li><p><strong>do up / undo</strong> → kiểu Anh (phrasal verb)</p></li><li><p><strong>button / unbutton</strong> → kiểu Mỹ (động từ trực tiếp)</p></li></ul><hr><h2>🎯 Ví dụ combo như native:</h2><ul><li><p>He <strong>did up</strong> his coat. (BrE)</p></li><li><p>He <strong>buttoned</strong> his coat. (AmE)</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:37:37.983Z",
+    "createdAt": "2026-04-16T10:45:48.034Z",
+    "updatedAt": "2026-04-17T05:37:37.983Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0bfe5327b94cf0d7624e5",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "tie",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/taɪ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tie-au.mp3",
+    "definition": "cà vạt",
+    "examples": [
+      {
+        "sentence": "He is wearing a tie",
+        "_id": "69e0bfe5327b94cf0d7624e6"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776336706/hq6acmuenunvdzssrudt.jpg",
+    "wordFamily": [
+      {
+        "word": "tie",
+        "partOfSpeech": "v",
+        "definition": "buộc / thắt / cột",
+        "ipa": "/taɪ/",
+        "_id": "69e0bfe5327b94cf0d7624e7"
+      },
+      {
+        "word": "necktie",
+        "partOfSpeech": "n",
+        "definition": "cà vạt",
+        "ipa": "",
+        "_id": "69e0bfe5327b94cf0d7624e8"
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "tie back",
+        "partOfSpeech": "phrase",
+        "definition": "buộc, góm lại về phía sau",
+        "ipa": "",
+        "_id": "69e0bfe5327b94cf0d7624e9"
+      },
+      {
+        "word": "tie down",
+        "partOfSpeech": "phrase",
+        "definition": "buộc chặt / cố định",
+        "ipa": "",
+        "_id": "69e0bfe5327b94cf0d7624ea"
+      }
+    ],
+    "note": "<h1>🔥 1. <strong>Tie (động từ – verb)</strong></h1><p>👉 Nghĩa chính: <strong>buộc / thắt / cột</strong></p><h3>Cách dùng:</h3><ul><li><p><strong>tie something</strong></p></li><li><p><strong>tie A to B</strong></p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>He <strong>tied</strong> his shoelaces.<br>→ Anh ấy buộc dây giày.</p></li><li><p>She <strong>tied</strong> her hair.<br>→ Cô ấy buộc tóc.</p></li><li><p>Tie the rope to the tree.<br>→ Buộc dây vào cây.</p></li></ul><hr><h2>🔹 Nghĩa mở rộng:</h2><h3>(1) <strong>Hòa (trong thể thao)</strong></h3><ul><li><p>The game <strong>ended in a tie</strong>.<br>→ Trận đấu kết thúc hòa.</p></li></ul><hr><h1>🔥 2. <strong>Tie (danh từ – noun)</strong></h1><p>👉 Có 2 nghĩa phổ biến:</p><hr><h2>(1) <strong>Cà vạt 👔</strong></h2><ul><li><p>He is wearing a <strong>tie</strong>.<br>→ Anh ấy đang đeo cà vạt.</p></li></ul><hr><h2>(2) <strong>Kết quả hòa</strong></h2><ul><li><p>It was a <strong>tie</strong>.<br>→ Đó là một trận hòa.</p></li></ul><hr><h1>🚀 So sánh nhanh</h1><p>LoạiNghĩa<strong>tie (v)</strong>buộc, thắt<strong>tie (n)</strong>cà vạt / trận hòa</p><hr><h1>💡 Ví dụ combo dễ nhớ:</h1><ul><li><p>He <strong>tied</strong> his <strong>tie</strong>. 😄<br>→ Anh ấy thắt cà vạt.</p></li></ul><hr><h1>⚠️ Lỗi hay gặp:</h1><p>❌ <em>He wear tie</em><br>✔ He <strong>wears a tie</strong></p><p>❌ <em>tie shoe</em><br>✔ <strong>tie your shoes / shoelaces</strong></p><hr><h1>🎯 Tip nhớ:</h1><ul><li><p><strong>tie (v)</strong> = hành động buộc</p></li><li><p><strong>tie (n)</strong> = cà vạt (nhìn như “dải buộc cổ”)</p></li></ul><p></p><h1>🔥 1. <strong>tie back</strong></h1><p>👉 Nghĩa: <strong>buộc/gom lại về phía sau</strong></p><h3>Dùng khi:</h3><ul><li><p>Buộc tóc</p></li><li><p>Buộc rèm cửa</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>She <strong>tied back</strong> her hair.<br>→ Cô ấy buộc tóc ra phía sau.</p></li><li><p>The curtains were <strong>tied back</strong>.<br>→ Rèm được buộc gọn sang hai bên.</p></li></ul><p>📌 Cảm giác: <strong>gọn gàng, về phía sau</strong></p><hr><h1>🔥 2. <strong>tie down</strong></h1><p>👉 Nghĩa: <strong>buộc chặt / cố định</strong></p><h3>Dùng khi:</h3><ul><li><p>Cố định đồ vật (tránh bay, rơi)</p></li><li><p>Nghĩa bóng: bị ràng buộc</p></li></ul><p><strong>Ví dụ:</strong></p><ul><li><p>Make sure to <strong>tie down</strong> the luggage.<br>→ Hãy buộc chặt hành lý.</p></li><li><p>I don’t want to be <strong>tied down</strong> by a job.<br>→ Tôi không muốn bị ràng buộc bởi công việc.</p></li></ul><p>📌 Cảm giác: <strong>chắc chắn, không di chuyển</strong></p><hr><h1>🚀 So sánh nhanh</h1><p>CụmNghĩa<strong>tie back</strong>buộc gọn ra sau<strong>tie down</strong>buộc chặt, cố định</p><hr><h1>💡 Mẹo nhớ:</h1><ul><li><p><strong>back</strong> = phía sau → buộc ra sau</p></li><li><p><strong>down</strong> = xuống → ép xuống, giữ chặt</p></li></ul><hr><h1>🎯 Ví dụ dễ nhớ:</h1><ul><li><p>She <strong>tied back</strong> her hair before working.</p></li><li><p>He <strong>tied down</strong> the boxes on the truck.</p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T05:33:57.971Z",
+    "createdAt": "2026-04-16T10:54:29.409Z",
+    "updatedAt": "2026-04-17T05:33:57.971Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c0a3327b94cf0d76256a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "sleeve",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/sliːv/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/sleeve-us.mp3",
+    "definition": "tay áo",
+    "examples": [
+      {
+        "sentence": "She wore a long sleeve shirt.",
+        "_id": "69e0c0a3327b94cf0d76256b"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776336935/qx9noj4stlgvkolecf8g.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "long-sleeved",
+        "partOfSpeech": "adj",
+        "definition": "áo dài tay",
+        "ipa": "",
+        "_id": "69e0c0a3327b94cf0d76256c"
+      },
+      {
+        "word": "short-sleeved",
+        "partOfSpeech": "adj",
+        "definition": "áo ngắn tay",
+        "ipa": "",
+        "_id": "69e0c0a3327b94cf0d76256d"
+      },
+      {
+        "word": "To roll up sleeves",
+        "partOfSpeech": "phrase",
+        "definition": "xắn tay áo",
+        "ipa": "",
+        "_id": "69e0c0a3327b94cf0d76256e"
+      }
+    ],
+    "note": "<p>He rolled up his sleeves before washing the car.</p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:53:44.308Z",
+    "createdAt": "2026-04-16T10:57:39.474Z",
+    "updatedAt": "2026-04-17T04:53:44.309Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c0fe327b94cf0d7625ee",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "earring",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈɪərɪŋ/",
+    "audio": "",
+    "definition": "Khuyên tai",
+    "examples": [
+      {
+        "sentence": "She was wearing a pair of beautiful diamond earrings",
+        "_id": "69e0c0fe327b94cf0d7625ef"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337143/vrddqmgven7j4pdkx29w.jpg",
+    "wordFamily": [],
+    "relatedWords": [
+      {
+        "word": "ring",
+        "partOfSpeech": "n",
+        "definition": "Nhẫn",
+        "ipa": "/rɪŋ/",
+        "_id": "69e0c0fe327b94cf0d7625f0"
+      }
+    ],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:53:13.612Z",
+    "createdAt": "2026-04-16T10:59:10.415Z",
+    "updatedAt": "2026-04-17T04:53:13.612Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c1d2327b94cf0d762674",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "jewellery",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈdʒuːəlri/",
+    "audio": "",
+    "definition": "trang sức",
+    "examples": [
+      {
+        "sentence": "She wears a lot of gold jewelry.",
+        "_id": "69e0c1d2327b94cf0d762675"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337280/c0l9l6y2wb9vlbthnvvm.jpg",
+    "wordFamily": [
+      {
+        "word": "jewel",
+        "partOfSpeech": "n",
+        "definition": "viên đá quý",
+        "ipa": "/ˈdʒuːəl/",
+        "_id": "69e0c1d2327b94cf0d762676"
+      }
+    ],
+    "relatedWords": [],
+    "note": "<h2>✅ <strong>to wear jewellery</strong></h2><p>👉 Nghĩa: <strong>đeo trang sức</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>She <strong>wears jewellery</strong> every day.<br>→ Cô ấy đeo trang sức mỗi ngày.</p></li></ul><p>📌 “jewellery” là <strong>danh từ không đếm được</strong> (BrE)</p><hr><h2>✅ <strong>a piece of jewellery</strong></h2><p>👉 Nghĩa: <strong>một món trang sức</strong></p><p><strong>Ví dụ:</strong></p><ul><li><p>This is a beautiful <strong>piece of jewellery</strong>.<br>→ Đây là một món trang sức đẹp.</p></li></ul><hr><h2>⚠️ Lưu ý quan trọng:</h2><h3>1. ❌ Không nói:</h3><ul><li><p><em>a jewellery</em> (sai)</p></li></ul><p>✔ Phải nói:</p><ul><li><p><strong>a piece of jewellery</strong></p></li></ul><hr><h3>2. Mỹ vs Anh:</h3><p>Anh (BrE)Mỹ (AmE)<strong>jewelleryjewelry</strong></p><hr><h2>🔥 Ví dụ combo:</h2><ul><li><p>She is <strong>wearing a piece of jewellery</strong>.<br>→ Cô ấy đang đeo một món trang sức.</p></li><li><p>He bought her a <strong>piece of jewellery</strong>.<br>→ Anh ấy mua cho cô ấy một món trang sức.</p></li></ul><hr><h2>🎯 Tip nhớ:</h2><ul><li><p><strong>jewellery = không đếm được</strong></p></li><li><p>Muốn đếm → dùng <strong>a piece of</strong></p></li></ul><p></p>",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:52:59.844Z",
+    "createdAt": "2026-04-16T11:02:42.530Z",
+    "updatedAt": "2026-04-17T04:52:59.844Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c212327b94cf0d7626f6",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "jeans",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/dʒiːnz/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/jeans-uk.mp3",
+    "definition": "Quần jeans",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0c212327b94cf0d7626f7"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:51:41.806Z",
+    "createdAt": "2026-04-16T11:03:46.598Z",
+    "updatedAt": "2026-04-17T04:51:41.806Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c257327b94cf0d76277a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "jacket",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈdʒækɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/jacket-us.mp3",
+    "definition": "áo khoác",
+    "examples": [
+      {
+        "sentence": "She wore a warm jacket to keep her from getting cold.",
+        "_id": "69e0c257327b94cf0d76277b"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337491/sch9i2yagfxmj8shlo71.webp",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:51:33.441Z",
+    "createdAt": "2026-04-16T11:04:55.395Z",
+    "updatedAt": "2026-04-17T04:51:33.441Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c2d3327b94cf0d76287f",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "pocket",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈpɒkɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/pocket-au.mp3",
+    "definition": "túi",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0c2d3327b94cf0d762880"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337609/xg8pw7g3etpfobdhw2sq.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:51:09.613Z",
+    "createdAt": "2026-04-16T11:06:59.379Z",
+    "updatedAt": "2026-04-17T04:51:09.613Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c338327b94cf0d762905",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "necklace",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈnek-lɪs/",
+    "audio": "",
+    "definition": "Vòng cổ / dây chuyền",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0c338327b94cf0d762906"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337709/ogpmgziokkeojmhe5aab.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:50:59.692Z",
+    "createdAt": "2026-04-16T11:08:40.570Z",
+    "updatedAt": "2026-04-17T04:50:59.692Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c39a327b94cf0d76298a",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "trousers",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈtraʊzə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/trousers-au.mp3",
+    "definition": "quần tây",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0c39a327b94cf0d76298b"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337807/sytstfxqqxyl7wdda21b.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:50:50.188Z",
+    "createdAt": "2026-04-16T11:10:18.901Z",
+    "updatedAt": "2026-04-17T04:50:50.188Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c456327b94cf0d762a16",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "handkerchief",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e0b84c327b94cf0d761e0e",
+    "ipa": "/ˈhæŋkətʃɪf/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/handkerchief-uk.mp3",
+    "definition": "khăn tay",
+    "examples": [
+      {
+        "sentence": "",
+        "_id": "69e0c456327b94cf0d762a17"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776337996/bwbcsopo4phubgtsuq2l.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 2,
+    "interval": 6,
+    "easeFactor": 2.2199999999999998,
+    "repetitionCount": 2,
+    "deleted": false,
+    "nextReview": "2026-04-25T07:35:10.738Z",
+    "createdAt": "2026-04-16T11:13:26.115Z",
+    "updatedAt": "2026-04-19T07:35:10.741Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e0c5a6327b94cf0d762aa1",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "sibling",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69dd0aed6091fb1bea9029ca",
+    "ipa": "/ˈsɪblɪŋ/",
+    "audio": "",
+    "definition": "anh chị em ruột",
+    "examples": [
+      {
+        "sentence": "My sibling is studying abroad.",
+        "_id": "69e0c5a6327b94cf0d762aa2"
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/dxyuuul0q/image/upload/v1776338338/vnosmtan2w4fzwqmh3kc.jpg",
+    "wordFamily": [],
+    "relatedWords": [],
+    "note": "",
+    "level": 1,
+    "interval": 1,
+    "easeFactor": 2.36,
+    "repetitionCount": 1,
+    "deleted": false,
+    "nextReview": "2026-04-18T04:50:14.542Z",
+    "createdAt": "2026-04-16T11:19:02.419Z",
+    "updatedAt": "2026-04-17T04:50:14.545Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e79d632caede1bd0cbd077",
+    "userId": "68ed03e4ae3caa0e0d3d1111",
+    "word": "landline",
+    "category": "word",
+    "partOfSpeech": "n",
+    "topicId": "69e798ca2caede1bd0cbd003",
+    "ipa": "/ˈlændˌlaɪn/",
+    "audio": "",
+    "definition": "điện thoại cố định / điện thoại bàn",
+    "examples": [
+      {
+        "sentence": "She prefers using a landline to using a mobile phone",
+        "translation": "Cô ấy thích sử dụng điện thoại bàn hơn điện thoại di động.",
+        "_id": "69e79d632caede1bd0cbd078"
+      },
+      {
+        "title": "On the landline: đang sử dụng/nói chuyện qua điện thoại cố định",
+        "sentence": "I'll be at home, so you can call me on the landline",
+        "translation": "Tôi sẽ ở nhà, nên bạn có thể gọi cho tôi qua điện thoại bàn.",
+        "_id": "69e79d632caede1bd0cbd079"
+      }
+    ],
+    "imageUrl": "",
+    "wordFamily": [],
+    "relatedWords": [],
+    "synonyms": [],
+    "note": "",
+    "level": 0,
+    "interval": 0,
+    "easeFactor": 2.5,
+    "repetitionCount": 0,
+    "deleted": false,
+    "nextReview": "2026-04-21T15:53:07.235Z",
+    "createdAt": "2026-04-21T15:53:07.240Z",
+    "updatedAt": "2026-04-21T15:53:07.240Z",
+    "__v": 0
+  }
+]

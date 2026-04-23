@@ -1,10 +1,6 @@
 import { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import AccountUser from '../../models/account-user.model';
-import Order from '../../models/order.model';
-import Booking from '../../models/booking.model';
-import BoardingBooking from '../../models/boarding-booking.model';
-import Pet from '../../models/pet.model';
 import { convertToSlug } from '../../helpers/slug.helper';
 
 // [GET] /api/v1/admin/accounts-user
@@ -28,32 +24,6 @@ export const list = async (req: Request, res: Response) => {
 
         if (req.query.status) {
             find.status = req.query.status;
-        }
-
-        if (req.query.createdBy) {
-            find.createdBy = req.query.createdBy;
-        }
-
-        // Filter by Staff ID (My Customers feature)
-        if (req.query.assignedStaffId) {
-            const staffId = req.query.assignedStaffId;
-            const now = new Date();
-
-            // Tìm các đơn đặt phòng đang diễn ra (đã xác nhận hoặc đã nhận phòng)
-            // và ngày hiện tại nằm trong khoảng lưu trú
-            const activeBookings = await BoardingBooking.find({
-                boardingStatus: { $in: ["confirmed", "checked-in"] },
-                checkInDate: { $lte: now },
-                checkOutDate: { $gte: now },
-                $or: [
-                    { "feedingSchedule.staffId": staffId },
-                    { "exerciseSchedule.staffId": staffId }
-                ],
-                deleted: false
-            }).select("userId");
-
-            const userIds = activeBookings.map(b => b.userId).filter(Boolean);
-            find._id = { $in: userIds };
         }
 
         // Pagination
@@ -253,42 +223,6 @@ export const deleteAccount = async (req: Request, res: Response) => {
     try {
         const id = req.params.id;
 
-        // Kiểm tra xem khách hàng có đơn hàng nào không
-        const hasOrder = await Order.exists({ userId: id, deleted: false });
-        if (hasOrder) {
-            return res.status(400).json({
-                code: 400,
-                message: "Không thể xóa khách hàng này vì vẫn còn đơn hàng liên quan!"
-            });
-        }
-
-        // Kiểm tra xem khách hàng có lịch đặt dịch vụ nào không
-        const hasBooking = await Booking.exists({ userId: id, deleted: false });
-        if (hasBooking) {
-            return res.status(400).json({
-                code: 400,
-                message: "Không thể xóa khách hàng này vì vẫn còn lịch đặt dịch vụ liên quan!"
-            });
-        }
-
-        // Kiểm tra xem khách hàng có lịch đặt lưu trú nào không
-        const hasBoardingBooking = await BoardingBooking.exists({ userId: id, deleted: false });
-        if (hasBoardingBooking) {
-            return res.status(400).json({
-                code: 400,
-                message: "Không thể xóa khách hàng này vì vẫn còn lịch đặt lưu trú liên quan!"
-            });
-        }
-
-        // Kiểm tra xem khách hàng có thú cưng nào không
-        const hasPet = await Pet.exists({ userId: id, deleted: false });
-        if (hasPet) {
-            return res.status(400).json({
-                code: 400,
-                message: "Không thể xóa khách hàng này vì vẫn còn các thú cưng đang được quản lý!"
-            });
-        }
-
         await AccountUser.updateOne({
             _id: id
         }, {
@@ -307,48 +241,7 @@ export const deleteAccount = async (req: Request, res: Response) => {
         });
     }
 };
-import UserAddress from '../../models/user-address.model';
 
-// ... (existing code)
-
-// [GET] /api/v1/admin/account-user/address/:userId
-export const addressList = async (req: Request, res: Response) => {
-    try {
-        const userId = req.params.userId;
-        const addressList = await UserAddress.find({ userId }).sort({ createdAt: -1 });
-
-        res.json({
-            code: 200,
-            data: addressList
-        });
-    } catch (error) {
-        res.status(500).json({ code: 500, message: "Lỗi hệ thống" });
-    }
-};
-
-// [DELETE] /api/v1/admin/account-user/address/delete/:id
-export const addressDelete = async (req: Request, res: Response) => {
-    try {
-        const id = req.params.id;
-        await UserAddress.deleteOne({ _id: id });
-        res.json({ code: 200, message: "Xóa địa chỉ thành công!" });
-    } catch (error) {
-        res.status(500).json({ code: 500, message: "Lỗi hệ thống" });
-    }
-};
-
-// [PATCH] /api/v1/admin/account-user/address/set-default/:id
-export const addressSetDefault = async (req: Request, res: Response) => {
-    try {
-        const id = req.params.id;
-        const address = await UserAddress.findById(id);
-        if (!address) return res.status(404).json({ code: 404, message: "Không tìm thấy địa chỉ" });
-
-        await UserAddress.updateMany({ userId: address.userId, isDefault: true }, { isDefault: false });
-        await UserAddress.updateOne({ _id: id }, { isDefault: true });
-
-        res.json({ code: 200, message: "Đã đặt làm địa chỉ mặc định!" });
-    } catch (error) {
-        res.status(500).json({ code: 500, message: "Lỗi hệ thống" });
-    }
+export const getStaffByService = async (req: Request, res: Response) => {
+    res.json({ code: 200, data: [] });
 };

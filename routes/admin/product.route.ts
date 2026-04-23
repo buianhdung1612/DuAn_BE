@@ -42,28 +42,5 @@ router.patch(
     productController.editPatch
 );
 router.patch('/delete/:id', checkPermission("product_delete"), productController.deletePatch);
-router.patch('/restore/:id', checkPermission("product_delete"), productController.restoreProduct);
-router.delete('/force-delete/:id', checkPermission("product_delete"), productController.forceDeleteProduct);
-router.get('/expired/list', checkPermission("product_view"), productController.expiredList);
-router.post('/expired/scan', checkPermission("product_edit"), productController.scanExpiredProducts);
-
-// Thuộc tính
-router.get('/attribute/list', checkPermission("product_attribute_view"), productController.getAttributeList);
-router.get('/attribute/detail/:id', checkPermission("product_attribute_view"), productController.getAttributeDetail);
-router.post(
-    '/attribute/create',
-    checkPermission("product_attribute_create"),
-    productValidate.createAttributePost,
-    productController.createAttribute
-);
-router.patch(
-    '/attribute/edit/:id',
-    checkPermission("product_attribute_edit"),
-    productValidate.createAttributePost,
-    productController.updateAttribute
-);
-router.patch('/attribute/delete/:id', checkPermission("product_attribute_delete"), productController.deleteAttribute);
-router.patch('/attribute/restore/:id', checkPermission("product_attribute_delete"), productController.restoreAttribute);
-router.delete('/attribute/force-delete/:id', checkPermission("product_attribute_delete"), productController.forceDeleteAttribute);
 
 export default router;
