@@ -13,7 +13,7 @@ const getStandardData = async (word: string): Promise<{ ipa: string | null, audi
 
         const data = await res.json();
         const entry = data[0];
-        
+
         let ipa = null;
         let audio = null;
         let partOfSpeech = entry.meanings?.[0]?.partOfSpeech || null;
@@ -63,6 +63,7 @@ export const index = async (req: Request, res: Response) => {
         const { topicId, date } = req.query;
         const query: any = { userId, deleted: false };
         if (topicId && topicId !== "all") query.topicId = topicId;
+        if (req.query.rootWord) query.rootWord = req.query.rootWord;
 
         if (date && date !== "all") {
             const start = new Date();
@@ -98,7 +99,20 @@ export const create = async (req: Request, res: Response) => {
     try {
         const userId = (req as any).user.id;
         req.body.userId = userId;
-        
+
+        const existingVocab = await Vocabulary.findOne({
+            userId,
+            word: req.body.word,
+            deleted: false
+        });
+
+        if (existingVocab) {
+            return res.json({
+                code: 400,
+                message: "Từ vựng này đã tồn tại trong danh sách của bạn!"
+            });
+        }
+
         if (!req.body.topicId || req.body.topicId === "") {
             req.body.topicId = await getOrCreateCommonTopic(userId);
         }
@@ -127,6 +141,40 @@ export const edit = async (req: Request, res: Response) => {
     }
 };
 
+// [GET] /admin/vocabulary/phrasal-verb-groups
+export const getPhrasalVerbGroups = async (req: Request, res: Response) => {
+    try {
+        const userId = (req as any).user.id;
+        
+        const groups = await Vocabulary.aggregate([
+            { 
+                $match: { 
+                    userId: userId, 
+                    category: "phrasal_verb", 
+                    deleted: false,
+                    rootWord: { $exists: true, $ne: "" }
+                } 
+            },
+            {
+                $group: {
+                    _id: "$rootWord",
+                    count: { $sum: 1 },
+                    verbs: { $push: "$word" }
+                }
+            },
+            { $sort: { _id: 1 } }
+        ]);
+
+        res.json({
+            code: 200,
+            message: "Thành công",
+            data: groups
+        });
+    } catch (error) {
+        res.json({ code: 500, message: "Lỗi hệ thống" });
+    }
+};
+
 // [DELETE] /admin/vocabulary/delete/:id
 export const deleteVocab = async (req: Request, res: Response) => {
     try {
@@ -144,13 +192,60 @@ export const deleteVocab = async (req: Request, res: Response) => {
 // [POST] /admin/vocabulary/generate-ai
 export const generateAI = async (req: Request, res: Response) => {
     try {
-        const { word, category } = req.body;
+        const { word, category, onlyIpa } = req.body;
         let { topicId } = req.body;
         if (!word) {
             return res.status(400).json({ code: 400, message: "Thiếu từ vựng" });
         }
 
         const userId = (req as any).user.id;
+
+        // Ưu tiên lấy dữ liệu từ từ điển chuẩn trước
+        const dictData = await getStandardData(word);
+
+        if (onlyIpa) {
+            let ipa = dictData.ipa;
+            let audio = dictData.audio;
+
+            if (!ipa) {
+                const prompt = `
+                    Hãy đóng vai một chuyên gia ngôn ngữ Senior. Hãy cung cấp phiên âm IPA chuẩn Oxford/Cambridge cho từ hoặc cụm từ tiếng Anh: "${word}".
+                    Trả về duy nhất JSON:
+                    {
+                        "ipa": "phiên âm IPA chuẩn"
+                    }
+                    Không giải thích thêm.
+                `;
+                const aiRes = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`
+                    },
+                    body: JSON.stringify({
+                        model: "llama-3.1-8b-instant",
+                        messages: [{ role: "user", content: prompt }],
+                        temperature: 0.2,
+                        response_format: { type: "json_object" }
+                    })
+                });
+
+                const data: any = await aiRes.json();
+                const aiContent = data.choices?.[0]?.message?.content || "{}";
+                const result = JSON.parse(aiContent);
+                ipa = result.ipa || "";
+            }
+
+            return res.json({
+                code: 200,
+                message: "AI đã lấy phiên âm thành công",
+                data: {
+                    ipa,
+                    audio
+                }
+            });
+        }
+
         if (!topicId || topicId === "") {
             topicId = await getOrCreateCommonTopic(userId);
         }
@@ -161,8 +256,8 @@ export const generateAI = async (req: Request, res: Response) => {
             if (topic) topicContext = `trong ngữ cảnh chủ đề "${topic.title}"`;
         }
 
-        // Ưu tiên lấy dữ liệu từ từ điển chuẩn trước
-        const dictData = await getStandardData(word);
+        // Sử dụng dữ liệu từ điển đã lấy ở trên
+        
 
         let categoryNote = "";
         if (category === "phrasal_verb") categoryNote = "(Đây là Cụm động từ, hãy tập trung vào cách dùng giới từ và nghĩa đặc thù)";
@@ -255,7 +350,7 @@ export const generateAI = async (req: Request, res: Response) => {
 export const review = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-        const { quality } = req.body; // 0, 1, 2, 3
+        const { quality } = req.body; // Mong đợi 0, 3, 4, 5 từ frontend
         const userId = (req as any).user.id;
 
         const vocab = await Vocabulary.findOne({ _id: id, userId });
@@ -263,8 +358,9 @@ export const review = async (req: Request, res: Response) => {
 
         let { interval, easeFactor, repetitionCount } = vocab;
 
-        const qMap = [0, 2, 3, 5];
-        const q = qMap[quality];
+        // quality (q) trong SM-2: 0-5. 
+        // Frontend đang gửi 0 (Again), 3 (Hard), 4 (Good), 5 (Easy)
+        const q = Number(quality);
 
         if (q >= 3) {
             if (repetitionCount === 0) {
@@ -280,6 +376,7 @@ export const review = async (req: Request, res: Response) => {
             interval = 1;
         }
 
+        // Cập nhật easeFactor theo thuật toán SM-2
         easeFactor = easeFactor + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
         if (easeFactor < 1.3) easeFactor = 1.3;
 
@@ -288,10 +385,10 @@ export const review = async (req: Request, res: Response) => {
 
         await Vocabulary.updateOne(
             { _id: id },
-            { 
-                interval, 
-                easeFactor, 
-                repetitionCount, 
+            {
+                interval,
+                easeFactor,
+                repetitionCount,
                 nextReview,
                 level: Math.min(5, repetitionCount)
             }
@@ -373,7 +470,7 @@ export const createBulkAI = async (req: Request, res: Response) => {
         const data = await aiRes.json();
         const contentStr = data.choices?.[0]?.message?.content || "{}";
         const content = JSON.parse(contentStr);
-        
+
         const vocabList = Array.isArray(content) ? content : (content.vocabularies || content.data || Object.values(content)[0]);
 
         if (!Array.isArray(vocabList)) {
@@ -434,7 +531,7 @@ export const generateNoteAI = async (req: Request, res: Response) => {
 
         const Groq = (await import("groq-sdk")).default;
         const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
-        
+
         const chatCompletion = await groq.chat.completions.create({
             messages: [
                 {
@@ -469,47 +566,85 @@ export const generateNoteAI = async (req: Request, res: Response) => {
     }
 };
 
-// [POST] /admin/vocabulary/translate-ai
-export const translateAI = async (req: Request, res: Response) => {
+export const statistics = async (req: Request, res: Response) => {
     try {
-        const { text } = req.body;
-        if (!text) {
-            return res.status(400).json({ code: 400, message: "Thiếu văn bản cần dịch" });
-        }
+        const userId = (req as any).user.id;
 
-        const aiRes = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-            model: "llama-3.1-8b-instant",
-            messages: [
-                {
-                    role: "system",
-                    content: "Bạn là một chuyên gia dịch thuật Anh-Việt. Hãy dịch văn bản được cung cấp sang tiếng Việt một cách tự nhiên và chính xác nhất. CHỈ TRẢ VỀ BẢN DỊCH, không thêm bất kỳ nhận xét nào khác."
-                },
-                {
-                    role: "user",
-                    content: text
-                }
-            ],
-            temperature: 0.3,
-        }, {
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${process.env.GROQ_API_KEY}`
+        // Count totals
+        const total = await Vocabulary.countDocuments({ userId, deleted: false });
+
+        // Count per level (0 to 5)
+        const levels = await Vocabulary.aggregate([
+            { $match: { userId, deleted: false } },
+            { $group: { _id: "$level", count: { $sum: 1 } } }
+        ]);
+
+        // Count per category (word, phrasal_verb, collocation, phrase)
+        const categories = await Vocabulary.aggregate([
+            { $match: { userId, deleted: false } },
+            { $group: { _id: "$category", count: { $sum: 1 } } }
+        ]);
+
+        // Count of words that need review today (nextReview <= now)
+        const dueCount = await Vocabulary.countDocuments({
+            userId,
+            deleted: false,
+            nextReview: { $lte: new Date() }
+        });
+
+        // Format level breakdown to always contain 0 to 5
+        const levelBreakdown = Array.from({ length: 6 }, (_, i) => {
+            const found = levels.find((l: any) => l._id === i);
+            return {
+                level: i,
+                label: i === 0 ? "Mới học" : `Cấp độ ${i}`,
+                count: found ? found.count : 0
+            };
+        });
+
+        // Format category breakdown
+        const categoryLabels: Record<string, string> = {
+            word: "Từ đơn",
+            phrasal_verb: "Cụm động từ",
+            collocation: "Cụm từ cố định",
+            phrase: "Mẫu câu",
+            lexical_set: "Nhóm từ vựng"
+        };
+        
+        // Ensure standard categories exist in breakdown even if count is 0
+        const stdCategories = ["word", "phrasal_verb", "collocation", "phrase"];
+        const categoryBreakdown = stdCategories.map((catKey: string) => {
+            const found = categories.find((c: any) => c._id === catKey);
+            return {
+                category: catKey,
+                label: categoryLabels[catKey] || catKey,
+                count: found ? found.count : 0
+            };
+        });
+
+        // Also add any other categories not in the standard list
+        categories.forEach((c: any) => {
+            if (!stdCategories.includes(c._id)) {
+                categoryBreakdown.push({
+                    category: c._id,
+                    label: categoryLabels[c._id] || c._id,
+                    count: c.count
+                });
             }
         });
 
-        const content = aiRes.data.choices?.[0]?.message?.content || "";
-
         res.json({
             code: 200,
-            message: "Dịch thành công",
-            data: content.trim()
+            message: "Thành công",
+            data: {
+                total,
+                dueCount,
+                levelBreakdown,
+                categoryBreakdown
+            }
         });
-    } catch (error: any) {
-        console.error("Translate AI Error:", error.response?.data || error.message);
-        res.status(500).json({ 
-            code: 500, 
-            message: "Lỗi AI khi dịch",
-            details: error.response?.data?.error?.message || error.message
-        });
+    } catch (error) {
+        console.error("Vocabulary stats error:", error);
+        res.json({ code: 500, message: "Lỗi thống kê từ vựng" });
     }
 };

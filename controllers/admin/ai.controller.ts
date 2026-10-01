@@ -7,7 +7,8 @@ const PROMPTS: Record<string, string> = {
     translate: "Hãy dịch đoạn văn bản sau sang tiếng Anh một cách tự nhiên nhất, giữ nguyên định dạng HTML nếu có:",
     explain_code: "Hãy giải thích đoạn mã lập trình sau một cách chi tiết và dễ hiểu:",
     summarize: "Hãy tóm tắt đoạn văn bản sau một cách ngắn gọn, súc tích và giữ lại các ý chính quan trọng:",
-    vision_builder: "Dựa trên các ý tưởng sau, hãy viết thành một đoạn 'Tầm nhìn cá nhân' (Personal Vision) súc tích, chuyên nghiệp và đầy cảm hứng. Hãy sử dụng ngôi thứ nhất (Tôi):"
+    vision_builder: "Dựa trên các ý tưởng sau, hãy viết thành một đoạn 'Tầm nhìn cá nhân' (Personal Vision) súc tích, chuyên nghiệp và đầy cảm hứng. Hãy sử dụng ngôi thứ nhất (Tôi):",
+    nutrition_assistant: "Bạn là chuyên gia dinh dưỡng. Hãy phân tích thực phẩm hoặc bữa ăn sau đây và cung cấp thông tin dinh dưỡng. Chỉ trả về một đối tượng JSON duy nhất (không có markdown, không có lời dẫn) với định dạng: {\"name\": \"tên thực phẩm\", \"calories\": số_calo, \"protein\": số_protein_g, \"carbs\": số_carbs_g, \"fat\": số_fat_g}. Nếu là một danh sách, hãy trả về mảng các đối tượng đó trong trường 'items'. Thực phẩm:"
 };
 
 export const processAI = async (req: Request, res: Response) => {

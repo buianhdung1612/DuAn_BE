@@ -4,13 +4,22 @@ const schema = new mongoose.Schema(
     {
         name: String,
         slug: String,
-        parent: String,
+        parent: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "CategoryBlog",
+            default: null
+        },
         description: String,
         avatar: String,
         status: {
             type: String,
             enum: ["active", "inactive"],
             default: "active"
+        },
+        module: {
+            type: String,
+            enum: ["english", "programming"],
+            default: "programming"
         },
         view: {
             type: Number,

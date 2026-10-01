@@ -10,6 +10,10 @@ export const index = async (req: Request, res: Response) => {
             deleted: false
         };
 
+        if (req.query.module) {
+            find.module = req.query.module;
+        }
+
         if (req.query.categoryId) {
             find.categoryId = req.query.categoryId;
         }

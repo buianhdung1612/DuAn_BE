@@ -12,6 +12,11 @@ const schema = new mongoose.Schema(
             enum: ["active", "inactive"],
             default: "active"
         },
+        module: {
+            type: String,
+            enum: ["english", "programming"],
+            default: "programming"
+        },
         deleted: {
             type: Boolean,
             default: false

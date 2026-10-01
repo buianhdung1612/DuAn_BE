@@ -14,6 +14,11 @@ const mindMapSchema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: "CategoryMindMap"
         },
+        module: {
+            type: String,
+            enum: ["english", "programming"],
+            default: "programming"
+        },
         tags: [String],
         deleted: {
             type: Boolean,

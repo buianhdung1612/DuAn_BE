@@ -8,13 +8,22 @@ const schema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: "CategoryBlog"
         }],
-        avatar: String,
+        images: [String],
         description: String,
         content: String,
+        keyPoints: {
+            type: [String],
+            default: []
+        },
         status: {
             type: String,
             enum: ["draft", "published", "archived"], // draft – Bản nháp, published – Đã xuất bản, archived – Đã lưu trữ
             default: "draft"
+        },
+        module: {
+            type: String,
+            enum: ["english", "programming"],
+            default: "programming"
         },
         view: {
             type: Number,

@@ -45,5 +45,6 @@ router.patch(
 router.patch('/delete/:id', checkPermission("blog_delete"), articleController.deleteBlog);
 router.patch('/restore/:id', checkPermission("blog_delete"), articleController.restoreBlog);
 router.delete('/force-delete/:id', checkPermission("blog_delete"), articleController.forceDeleteBlog);
+router.post('/generate-key-points', checkPermission("blog_create"), articleController.generateKeyPoints);
 
 export default router;

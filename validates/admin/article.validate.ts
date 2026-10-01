@@ -19,9 +19,10 @@ export const createCategory = (req: Request, res: Response, next: NextFunction) 
 
         parent: Joi.string().allow(""),
         status: Joi.string().allow(""),
-        avatar: Joi.string().allow(""),
-        description: Joi.string().allow("")
-    });
+        images: Joi.alternatives().try(Joi.string(), Joi.array().items(Joi.string())).allow(""),
+        description: Joi.string().allow(""),
+        module: Joi.string().allow("")
+    }).unknown(true);
 
     const { error } = schema.validate(req.body, {
         abortEarly: true
@@ -51,10 +52,11 @@ export const createBlog = (req: Request, res: Response, next: NextFunction) => {
 
         category: Joi.string().allow(''),
         status: Joi.string().allow(''),
-        avatar: Joi.string().allow(''),
+        images: Joi.alternatives().try(Joi.string(), Joi.array().items(Joi.string())).allow(""),
         description: Joi.string().allow(''),
-        content: Joi.string().allow('')
-    });
+        content: Joi.string().allow(''),
+        module: Joi.string().allow('')
+    }).unknown(true);
 
     const { error } = schema.validate(req.body, {
         abortEarly: true

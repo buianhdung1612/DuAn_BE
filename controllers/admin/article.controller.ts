@@ -11,6 +11,10 @@ export const category = async (req: Request, res: Response) => {
             deleted: req.query.is_trash === "true" ? true : false
         };
 
+        if (req.query.module) {
+            find.module = req.query.module;
+        }
+
         // Tìm kiếm
         const keyword = req.query.keyword || req.query.q;
         if (keyword) {
@@ -97,9 +101,13 @@ export const category = async (req: Request, res: Response) => {
 
 export const getCategoryTree = async (req: Request, res: Response) => {
     try {
-        const categories = await CategoryBlog.find({
+        const find: any = {
             deleted: false
-        }).lean();
+        };
+        if (req.query.module) {
+            find.module = req.query.module;
+        }
+        const categories = await CategoryBlog.find(find).lean();
 
         const categoryTree = buildCategoryTree(categories);
 
@@ -137,6 +145,10 @@ export const createCategory = async (req: Request, res: Response) => {
 
         // 2. Generate search field
         req.body.search = convertToSlug(name).replace(/-/g, " ");
+
+        if (req.body.parent === "") {
+            req.body.parent = null;
+        }
 
         // 3. Create category
         await CategoryBlog.create(req.body);
@@ -216,6 +228,11 @@ export const editCategory = async (req: Request, res: Response) => {
         }
 
         req.body.search = convertToSlug(req.body.name || "").replace(/-/g, " ");
+        
+        if (req.body.parent === "") {
+            req.body.parent = null;
+        }
+
         await CategoryBlog.updateOne({
             _id: id,
             deleted: false
@@ -319,6 +336,22 @@ export const create = async (req: Request, res: Response) => {
             req.body.category = JSON.parse(req.body.category);
         }
 
+        if (req.body.keyPoints && typeof req.body.keyPoints === 'string') {
+            try {
+                req.body.keyPoints = JSON.parse(req.body.keyPoints);
+            } catch (e) {
+                console.error("Error parsing keyPoints:", e);
+            }
+        }
+
+        if (req.body.images && typeof req.body.images === 'string') {
+            try {
+                req.body.images = JSON.parse(req.body.images);
+            } catch (e) {
+                console.error("Error parsing images:", e);
+            }
+        }
+
         req.body.search = convertToSlug(req.body.name).replace(/-/g, " ");
 
         if (req.body.status === "published") {
@@ -347,6 +380,10 @@ export const list = async (req: Request, res: Response) => {
         const find: any = {
             deleted: req.query.is_trash === "true" ? true : false
         };
+
+        if (req.query.module) {
+            find.module = req.query.module;
+        }
 
         // Tìm kiếm
         const keyword = req.query.keyword || req.query.q;
@@ -493,6 +530,22 @@ export const edit = async (req: Request, res: Response) => {
             }
         }
 
+        if (req.body.images && typeof req.body.images === 'string') {
+            try {
+                req.body.images = JSON.parse(req.body.images);
+            } catch (e) {
+                console.error("Error parsing images:", e);
+            }
+        }
+
+        if (req.body.keyPoints && typeof req.body.keyPoints === 'string') {
+            try {
+                req.body.keyPoints = JSON.parse(req.body.keyPoints);
+            } catch (e) {
+                console.error("Error parsing keyPoints:", e);
+            }
+        }
+
         if (req.body.name) {
             req.body.search = convertToSlug(req.body.name).replace(/-/g, " ");
         }
@@ -586,5 +639,57 @@ export const forceDeleteBlog = async (req: Request, res: Response) => {
         res.status(200).json({ success: true, message: "Xóa vĩnh viễn bài viết thành công!" });
     } catch (e) {
         res.status(500).json({ success: false, message: "Lỗi hệ thống!" });
+    }
+};
+
+export const generateKeyPoints = async (req: Request, res: Response) => {
+    try {
+        const { content, description } = req.body;
+        if (!content && !description) {
+            return res.status(400).json({ success: false, message: "Thiếu nội dung để tóm tắt!" });
+        }
+
+        const prompt = `
+            Hãy đóng vai một chuyên gia tóm tắt nội dung học tập. Với bài viết dưới đây, hãy trích xuất đúng 3 đến 5 Ý CHÍNH (Key Takeaways) cốt lõi nhất để người học đọc qua là hiểu ngay toàn bộ bài viết.
+            
+            Mô tả ngắn: "${description || ''}"
+            Nội dung chi tiết: "${content || ''}"
+            
+            Trả về duy nhất định dạng JSON như sau:
+            {
+                "keyPoints": [
+                    "Ý chính 1 cực kỳ súc tích",
+                    "Ý chính 2 cực kỳ súc tích",
+                    "Ý chính 3 cực kỳ súc tích"
+                ]
+            }
+            Lưu ý: Các ý chính viết bằng tiếng Việt, ngắn gọn, súc tích (mỗi ý không quá 20 từ). Chỉ trả về JSON, không thêm bất kỳ văn bản nào khác.
+        `;
+
+        const aiRes = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+            method: "POST",
+            headers: {
+                "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                model: "llama-3.1-8b-instant",
+                messages: [{ role: "user", content: prompt }],
+                response_format: { type: "json_object" }
+            })
+        });
+
+        const data: any = await aiRes.json();
+        const contentStr = data.choices?.[0]?.message?.content || "{}";
+        const result = JSON.parse(contentStr);
+
+        res.json({
+            success: true,
+            code: 200,
+            keyPoints: result.keyPoints || []
+        });
+    } catch (error) {
+        console.error("AI Key Points Error:", error);
+        res.status(500).json({ success: false, message: "Lỗi AI tóm tắt ý chính" });
     }
 };

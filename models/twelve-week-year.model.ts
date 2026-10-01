@@ -5,9 +5,15 @@ const tacticSchema = new mongoose.Schema({
     targetPerWeek: { type: Number, default: 7 },
 });
 
+const subGoalSchema = new mongoose.Schema({
+    title: { type: String, required: true },
+    isCompleted: { type: Boolean, default: false },
+});
+
 const dailyFocusSchema = new mongoose.Schema({
     title: { type: String, required: true },
     isCompleted: { type: Boolean, default: false },
+    subGoals: [subGoalSchema]
 });
 
 const timeBlockSchema = new mongoose.Schema({

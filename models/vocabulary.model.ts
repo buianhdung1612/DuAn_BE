@@ -3,7 +3,8 @@ import mongoose, { Schema, Document } from "mongoose";
 export interface IVocabulary extends Document {
     userId: string;
     word: string;
-    category: "word" | "phrasal_verb" | "collocation" | "phrase";
+    rootWord?: string;
+    category: "word" | "phrasal_verb" | "collocation" | "phrase" | "lexical_set";
     partOfSpeech: string;
     topicId: string;
     ipa: string;
@@ -11,17 +12,18 @@ export interface IVocabulary extends Document {
     definition: string;
     examples: { title: string; sentences: { text: string; translation: string }[] }[];
     imageUrl: string;
-    wordFamily: { 
-        word: string; partOfSpeech: string; definition: string; ipa: string; note: string; 
-        examples: { title: string; sentences: { text: string; translation: string }[] }[]; 
-        synonyms: string[]; shouldStudy: boolean 
+    wordFamily: {
+        word: string; partOfSpeech: string; definition: string; ipa: string; note: string;
+        examples: { title: string; sentences: { text: string; translation: string }[] }[];
+        synonyms: string[]; shouldStudy: boolean
     }[];
-    relatedWords: { 
-        word: string; partOfSpeech: string; definition: string; ipa: string; note: string; 
-        examples: { title: string; sentences: { text: string; translation: string }[] }[]; 
-        synonyms: string[]; shouldStudy: boolean 
+    relatedWords: {
+        word: string; partOfSpeech: string; definition: string; ipa: string; note: string;
+        examples: { title: string; sentences: { text: string; translation: string }[] }[];
+        synonyms: string[]; shouldStudy: boolean
     }[];
     synonyms: string[];
+    groupedWords?: { word: string; definition: string; note: string }[];
     note: string;
     level: number; // 0: Mới, 1-5: Độ thuộc bài
     nextReview: Date;
@@ -36,7 +38,8 @@ const VocabularySchema: Schema = new Schema(
     {
         userId: { type: String, required: true },
         word: { type: String, required: true },
-        category: { type: String, enum: ["word", "phrasal_verb", "collocation", "phrase"], default: "word" },
+        rootWord: { type: String },
+        category: { type: String, enum: ["word", "phrasal_verb", "collocation", "phrase", "lexical_set"], default: "word" },
         partOfSpeech: { type: String },
         topicId: { type: Schema.Types.ObjectId, ref: 'VocabularyTopic' },
         ipa: { type: String },
@@ -102,6 +105,15 @@ const VocabularySchema: Schema = new Schema(
         ],
 
         synonyms: [{ type: String }],
+        groupedWords: [
+            {
+                word: { type: String },
+                ipa: { type: String },
+                definition: { type: String },
+                note: { type: String },
+                imageUrl: { type: String },
+            }
+        ],
         note: { type: String },
         level: { type: Number, default: 0 },
         nextReview: { type: Date, default: Date.now },

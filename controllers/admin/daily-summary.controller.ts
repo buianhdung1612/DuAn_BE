@@ -96,3 +96,44 @@ export const upsert = async (req: Request, res: Response) => {
         });
     }
 };
+
+// [GET] /admin/daily-summaries/statistics
+export const getStatistics = async (req: Request, res: Response) => {
+    try {
+        const userId = (req as any).user.id;
+
+        const todayStart = moment().startOf('day').toDate();
+        const yesterdayStart = moment().subtract(1, 'days').startOf('day').toDate();
+        const yesterdayEnd = moment().subtract(1, 'days').endOf('day').toDate();
+        const thisWeekStart = moment().startOf('isoWeek').toDate();
+        const nextDay = moment().startOf('day').add(1, 'days').toDate();
+
+        const countForRange = async (start: Date, end: Date) => {
+            const [blogs, mindMaps, vocabularies] = await Promise.all([
+                Blog.countDocuments({ createdBy: userId, createdAt: { $gte: start, $lt: end }, deleted: false }),
+                MindMap.countDocuments({ userId: userId, createdAt: { $gte: start, $lt: end }, deleted: false }),
+                Vocabulary.countDocuments({ createdBy: userId, createdAt: { $gte: start, $lt: end }, deleted: false })
+            ]);
+            return { blogs, mindMaps, vocabularies };
+        };
+
+        const todayStats = await countForRange(todayStart, nextDay);
+        const yesterdayStats = await countForRange(yesterdayStart, yesterdayEnd);
+        const thisWeekStats = await countForRange(thisWeekStart, nextDay);
+
+        res.json({
+            code: 200,
+            data: {
+                today: todayStats,
+                yesterday: yesterdayStats,
+                thisWeek: thisWeekStats
+            }
+        });
+    } catch (error) {
+        console.error(error);
+        res.json({
+            code: 400,
+            message: "Lỗi khi lấy thống kê"
+        });
+    }
+};

@@ -12,6 +12,7 @@ router.post("/generate-ai", authMiddleware.verifyToken, controller.generateAI);
 router.post("/generate-bulk", authMiddleware.verifyToken, controller.createBulkAI);
 router.post("/generate-note-ai", authMiddleware.verifyToken, controller.generateNoteAI);
 router.post("/review/:id", authMiddleware.verifyToken, controller.review);
-router.post("/translate-ai", authMiddleware.verifyToken, controller.translateAI);
+router.get("/phrasal-verb-groups", authMiddleware.verifyToken, controller.getPhrasalVerbGroups);
+router.get("/statistics", authMiddleware.verifyToken, controller.statistics);
 
 export const vocabularyRoutes: Router = router;

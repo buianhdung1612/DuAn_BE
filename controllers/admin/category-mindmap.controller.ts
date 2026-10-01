@@ -9,6 +9,10 @@ export const index = async (req: Request, res: Response) => {
             deleted: req.query.is_trash === "true" ? true : false
         };
 
+        if (req.query.module) {
+            find.module = req.query.module;
+        }
+
         // Tìm kiếm
         const keyword = req.query.keyword || req.query.q;
         if (keyword) {
